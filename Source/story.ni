@@ -12,21 +12,31 @@ A mausoleu room has some text called buzzling sound and scent.
 
 A mausoleu wall is a kind of thing. The printed name of mausoleu wall is "dark wall". The description usually is "There seems to be walls nearby, but you can't see them with your eyes.". A mausoleu wall can be perfect, cracked or broken (this is its condition property). A mausoleu wall usually is perfect.
 
-A elevation is an openable container.  A elevation is closed. A lid is a supporter. A lid is part of the elevation. 
+A elevation is an openable container.  The elevation is closed.  A lid is a supporter. A lid is part of the elevation. 
+
 Instead of opening the elevation:
-	say "[if the lid have been examined] It's too dark to see the opening."
+	say "[if we have examined the lid] It's too dark to see the opening."
+	
+Instead of examing the elevation:
+	say "You can't see what the elevation is, it's too dark."
+	
+Instead of touching the elevation:
+	say "The elevation is could to the touch. [if we have examined a mausoleum wall] Just like the walls [end if]. It seems to be made of concrete. "
 
 Understand "punch [something]" as attacking.
 Understand "kick [something]" as attacking.
 
 Instead of attacking a mausoleu wall:
 	if the noun is perfect:
-		say "You punch the wall, but it doesn't seem to do anything. A great way to hurt your hand.";
-	if the noun is cracked:
-		say "You punch the wall and it comes tumbling down. ";
-		now the noun is broken;
+		say "You attack the wall, but it doesn't seem to do anything. A great way to hurt your hand.";
 	if  the noun is broken:
-		say "The wall is already broken".
+		say "The wall is already broken";
+	if the noun is cracked:
+		say "You attack the wall and it comes tumbling down. ";
+		now the noun is broken.
+		
+
+	
 
 Instead of touching a mausoleu wall when the location is a mausoleu room:
 	if the location is MausoleuC:

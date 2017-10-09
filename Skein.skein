@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-369"/>
+  <activeNode nodeId="node-404"/>
   <item nodeId="node-1">
     <command xml:space="preserve">DeadMan</command>
     <result xml:space="preserve">DeadMan&#x000A;An Interactive Fiction by Gabriel Aureo&#x000A;Release 1 / Serial number 171008 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;MausoleuSE&#x000A; You are laying down in an unknown place. Little by little, you open your eyes, just to realize you can't actually see anything. You can't tell if you're blind or if it's just really dark. Thankfully, your other senses seems to be working just fine.&#x000A;&#x000A;&gt;</result>
@@ -19,18 +19,21 @@
       <child nodeId="node-85"/>
       <child nodeId="node-86"/>
       <child nodeId="node-113"/>
-      <child nodeId="node-192"/>
-      <child nodeId="node-205"/>
-      <child nodeId="node-209"/>
-      <child nodeId="node-258"/>
-      <child nodeId="node-264"/>
-      <child nodeId="node-266"/>
-      <child nodeId="node-271"/>
-      <child nodeId="node-308"/>
-      <child nodeId="node-320"/>
-      <child nodeId="node-328"/>
-      <child nodeId="node-337"/>
-      <child nodeId="node-357"/>
+      <child nodeId="node-201"/>
+      <child nodeId="node-214"/>
+      <child nodeId="node-218"/>
+      <child nodeId="node-277"/>
+      <child nodeId="node-283"/>
+      <child nodeId="node-285"/>
+      <child nodeId="node-290"/>
+      <child nodeId="node-327"/>
+      <child nodeId="node-339"/>
+      <child nodeId="node-347"/>
+      <child nodeId="node-356"/>
+      <child nodeId="node-363"/>
+      <child nodeId="node-370"/>
+      <child nodeId="node-403"/>
+      <child nodeId="node-404"/>
     </children>
   </item>
   <item nodeId="node-2">
@@ -458,7 +461,7 @@
   </item>
   <item nodeId="node-52">
     <command xml:space="preserve">x</command>
-    <result xml:space="preserve">(the dark wall)&#x000A;It's too dark to see anything.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">(the dark wall)&#x000A;There seems to be walls nearby, but you can't see them with your eyes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
     <children>
@@ -468,6 +471,7 @@
       <child nodeId="node-62"/>
       <child nodeId="node-63"/>
       <child nodeId="node-64"/>
+      <child nodeId="node-381"/>
     </children>
   </item>
   <item nodeId="node-53">
@@ -692,6 +696,156 @@
   <item nodeId="node-79">
     <command xml:space="preserve">x wood</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-381">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuS&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-382"/>
+    </children>
+  </item>
+  <item nodeId="node-382">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuSW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-383"/>
+    </children>
+  </item>
+  <item nodeId="node-383">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You try to walk south, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-384"/>
+    </children>
+  </item>
+  <item nodeId="node-384">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">MausoleuS&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-385"/>
+    </children>
+  </item>
+  <item nodeId="node-385">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">MausoleuSE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-386"/>
+    </children>
+  </item>
+  <item nodeId="node-386">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">MausoleuE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-387"/>
+    </children>
+  </item>
+  <item nodeId="node-387">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">MausoleuNE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-388"/>
+    </children>
+  </item>
+  <item nodeId="node-388">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuN&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-389"/>
+    </children>
+  </item>
+  <item nodeId="node-389">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuNW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-390"/>
+    </children>
+  </item>
+  <item nodeId="node-390">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-391"/>
+    </children>
+  </item>
+  <item nodeId="node-391">
+    <command xml:space="preserve">elevation</command>
+    <result xml:space="preserve">You see nothing special about the elevation.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-392"/>
+    </children>
+  </item>
+  <item nodeId="node-392">
+    <command xml:space="preserve">touch elevation</command>
+    <result xml:space="preserve">You feel nothing unexpected.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-393"/>
+    </children>
+  </item>
+  <item nodeId="node-393">
+    <command xml:space="preserve">open elevation</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-394"/>
+    </children>
+  </item>
+  <item nodeId="node-394">
+    <command xml:space="preserve">touch wall</command>
+    <result xml:space="preserve">It's cold to the touch. You reckon this is just a concrete wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-395"/>
+    </children>
+  </item>
+  <item nodeId="node-395">
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">There seems to be walls nearby, but you can't see them with your eyes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-396"/>
+    </children>
+  </item>
+  <item nodeId="node-396">
+    <command xml:space="preserve">punch wal</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-397"/>
+    </children>
+  </item>
+  <item nodeId="node-397">
+    <command xml:space="preserve">punch wall</command>
+    <result xml:space="preserve">You punch the wall, but it doesn't seem to do anything. A great way to hurt your hand.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
@@ -980,8 +1134,8 @@
       <child nodeId="node-128"/>
       <child nodeId="node-154"/>
       <child nodeId="node-157"/>
-      <child nodeId="node-185"/>
-      <child nodeId="node-191"/>
+      <child nodeId="node-194"/>
+      <child nodeId="node-200"/>
     </children>
   </item>
   <item nodeId="node-114">
@@ -1363,7 +1517,7 @@
     <changed>NO</changed>
     <children>
       <child nodeId="node-158"/>
-      <child nodeId="node-182"/>
+      <child nodeId="node-188"/>
     </children>
   </item>
   <item nodeId="node-158">
@@ -1374,7 +1528,7 @@
     <children>
       <child nodeId="node-159"/>
       <child nodeId="node-161"/>
-      <child nodeId="node-170"/>
+      <child nodeId="node-176"/>
     </children>
   </item>
   <item nodeId="node-159">
@@ -1400,7 +1554,7 @@
     <children>
       <child nodeId="node-162"/>
       <child nodeId="node-168"/>
-      <child nodeId="node-351"/>
+      <child nodeId="node-170"/>
     </children>
   </item>
   <item nodeId="node-162">
@@ -1469,60 +1623,9 @@
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-351">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-352"/>
-    </children>
-  </item>
-  <item nodeId="node-352">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-353"/>
-    </children>
-  </item>
-  <item nodeId="node-353">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">MausoleuNW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-354"/>
-    </children>
-  </item>
-  <item nodeId="node-354">
-    <command xml:space="preserve">x elevation</command>
-    <result xml:space="preserve">The elevation is empty.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-355"/>
-    </children>
-  </item>
-  <item nodeId="node-355">
-    <command xml:space="preserve">x lid</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-356"/>
-    </children>
-  </item>
-  <item nodeId="node-356">
-    <command xml:space="preserve">push lid</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
   <item nodeId="node-170">
-    <command xml:space="preserve">x wall</command>
-    <result xml:space="preserve">It's just a wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1530,8 +1633,8 @@
     </children>
   </item>
   <item nodeId="node-171">
-    <command xml:space="preserve">listen</command>
-    <result xml:space="preserve">You hear a faint buzzling sound. You still can't pinpoint its location, though.&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1540,7 +1643,7 @@
   </item>
   <item nodeId="node-172">
     <command xml:space="preserve">w</command>
-    <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">MausoleuNW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1548,8 +1651,8 @@
     </children>
   </item>
   <item nodeId="node-173">
-    <command xml:space="preserve">x wall</command>
-    <result xml:space="preserve">It's just a wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x elevation</command>
+    <result xml:space="preserve">The elevation is empty.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1557,8 +1660,8 @@
     </children>
   </item>
   <item nodeId="node-174">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x lid</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1566,17 +1669,14 @@
     </children>
   </item>
   <item nodeId="node-175">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">push lid</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-176"/>
-    </children>
   </item>
   <item nodeId="node-176">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You try to walk south, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">It's just a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1584,8 +1684,8 @@
     </children>
   </item>
   <item nodeId="node-177">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">You hear a faint buzzling sound. You still can't pinpoint its location, though.&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1594,7 +1694,7 @@
   </item>
   <item nodeId="node-178">
     <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You try to walk west, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1602,8 +1702,8 @@
     </children>
   </item>
   <item nodeId="node-179">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">It's just a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1611,7 +1711,7 @@
     </children>
   </item>
   <item nodeId="node-180">
-    <command xml:space="preserve">n</command>
+    <command xml:space="preserve">s</command>
     <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
@@ -1620,61 +1720,44 @@
     </children>
   </item>
   <item nodeId="node-181">
-    <command xml:space="preserve">x wall</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-182"/>
+    </children>
   </item>
   <item nodeId="node-182">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">MausoleuN&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You try to walk south, but you hit a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-183"/>
-      <child nodeId="node-184"/>
     </children>
   </item>
   <item nodeId="node-183">
     <command xml:space="preserve">w</command>
-    <result xml:space="preserve">MausoleuNW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-349"/>
+      <child nodeId="node-184"/>
     </children>
-  </item>
-  <item nodeId="node-349">
-    <command xml:space="preserve">x elevation</command>
-    <result xml:space="preserve">You see nothing special about the elevation.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
-    <children>
-      <child nodeId="node-350"/>
-      <child nodeId="node-369"/>
-    </children>
-  </item>
-  <item nodeId="node-350">
-    <command xml:space="preserve">x tomb</command>
-    <result xml:space="preserve">The elevation is empty.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-369">
-    <command xml:space="preserve">open elevation</command>
-    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
   </item>
   <item nodeId="node-184">
-    <command xml:space="preserve">x wall</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You try to walk west, but you hit a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-185"/>
+    </children>
   </item>
   <item nodeId="node-185">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1683,7 +1766,7 @@
   </item>
   <item nodeId="node-186">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">MausoleuNE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1691,26 +1774,24 @@
     </children>
   </item>
   <item nodeId="node-187">
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-188">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">MausoleuN&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-188"/>
-    </children>
-  </item>
-  <item nodeId="node-188">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">MausoleuNW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
       <child nodeId="node-189"/>
+      <child nodeId="node-193"/>
     </children>
   </item>
   <item nodeId="node-189">
     <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You try to walk west, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">MausoleuNW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1718,40 +1799,36 @@
     </children>
   </item>
   <item nodeId="node-190">
-    <command xml:space="preserve">listen</command>
-    <result xml:space="preserve">Wow. The buzzling sound is really high here. Maybe this is the source.&#x000A;&gt;</result>
+    <command xml:space="preserve">x elevation</command>
+    <result xml:space="preserve">You see nothing special about the elevation.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-191"/>
+      <child nodeId="node-192"/>
+    </children>
+  </item>
+  <item nodeId="node-191">
+    <command xml:space="preserve">x tomb</command>
+    <result xml:space="preserve">The elevation is empty.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-191">
+  <item nodeId="node-192">
+    <command xml:space="preserve">open elevation</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-193">
     <command xml:space="preserve">x wall</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-192">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You try to walk south, but you hit a wall.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-193"/>
-      <child nodeId="node-198"/>
-      <child nodeId="node-202"/>
-    </children>
-  </item>
-  <item nodeId="node-193">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">MausoleuC&#x000A; Your head is not hurting anymore, but you still can't see anything. What about your other senses?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-194"/>
-    </children>
-  </item>
   <item nodeId="node-194">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">MausoleuC&#x000A; Your head is not hurting anymore, but you still can't see anything. What about your other senses?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1759,8 +1836,8 @@
     </children>
   </item>
   <item nodeId="node-195">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">MausoleuC&#x000A; Your head is not hurting anymore, but you still can't see anything. What about your other senses?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">MausoleuNE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1768,8 +1845,8 @@
     </children>
   </item>
   <item nodeId="node-196">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuN&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1777,33 +1854,32 @@
     </children>
   </item>
   <item nodeId="node-197">
-    <command xml:space="preserve">room</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuNW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-198"/>
+    </children>
   </item>
   <item nodeId="node-198">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You try to walk south, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You try to walk west, but you hit a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-199"/>
-      <child nodeId="node-201"/>
     </children>
   </item>
   <item nodeId="node-199">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">Wow. The buzzling sound is really high here. Maybe this is the source.&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-200"/>
-    </children>
   </item>
   <item nodeId="node-200">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">MausoleuS&#x000A; Your head is not hurting anymore, but you still can't see anything. What about your other senses?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
@@ -1812,10 +1888,15 @@
     <result xml:space="preserve">You try to walk south, but you hit a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-202"/>
+      <child nodeId="node-207"/>
+      <child nodeId="node-211"/>
+    </children>
   </item>
   <item nodeId="node-202">
-    <command xml:space="preserve">smell</command>
-    <result xml:space="preserve">&gt;</result>
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">MausoleuC&#x000A; Your head is not hurting anymore, but you still can't see anything. What about your other senses?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1823,8 +1904,8 @@
     </children>
   </item>
   <item nodeId="node-203">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You try to walk south, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">MausoleuC&#x000A; Your head is not hurting anymore, but you still can't see anything. What about your other senses?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1832,14 +1913,17 @@
     </children>
   </item>
   <item nodeId="node-204">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">MausoleuS&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">MausoleuC&#x000A; Your head is not hurting anymore, but you still can't see anything. What about your other senses?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-205"/>
+    </children>
   </item>
   <item nodeId="node-205">
-    <command xml:space="preserve">FORWARD</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1847,65 +1931,54 @@
     </children>
   </item>
   <item nodeId="node-206">
-    <command xml:space="preserve">forward</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-207"/>
-    </children>
   </item>
   <item nodeId="node-207">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You try to walk south, but you hit a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-208"/>
+      <child nodeId="node-210"/>
     </children>
   </item>
   <item nodeId="node-208">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-209"/>
+    </children>
   </item>
   <item nodeId="node-209">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">MausoleuS&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">MausoleuS&#x000A; Your head is not hurting anymore, but you still can't see anything. What about your other senses?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-210">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You try to walk south, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-211">
+    <command xml:space="preserve">smell</command>
+    <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-210"/>
-      <child nodeId="node-232"/>
-    </children>
-  </item>
-  <item nodeId="node-210">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">MausoleuC&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
-    <children>
-      <child nodeId="node-211"/>
-      <child nodeId="node-228"/>
-      <child nodeId="node-230"/>
-    </children>
-  </item>
-  <item nodeId="node-211">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">MausoleuN&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
-    <children>
       <child nodeId="node-212"/>
-      <child nodeId="node-214"/>
-      <child nodeId="node-221"/>
-      <child nodeId="node-344"/>
     </children>
   </item>
   <item nodeId="node-212">
-    <command xml:space="preserve">m</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You try to walk south, but you hit a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1913,14 +1986,14 @@
     </children>
   </item>
   <item nodeId="node-213">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuS&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
   <item nodeId="node-214">
-    <command xml:space="preserve">x wall</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">FORWARD</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1928,7 +2001,7 @@
     </children>
   </item>
   <item nodeId="node-215">
-    <command xml:space="preserve">wall</command>
+    <command xml:space="preserve">forward</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
@@ -1937,8 +2010,8 @@
     </children>
   </item>
   <item nodeId="node-216">
-    <command xml:space="preserve">look wall</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1946,41 +2019,47 @@
     </children>
   </item>
   <item nodeId="node-217">
-    <command xml:space="preserve">wall</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-218"/>
-    </children>
   </item>
   <item nodeId="node-218">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuS&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-219"/>
+      <child nodeId="node-246"/>
     </children>
   </item>
   <item nodeId="node-219">
-    <command xml:space="preserve">wall</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">MausoleuC&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-220"/>
+      <child nodeId="node-242"/>
+      <child nodeId="node-244"/>
     </children>
   </item>
   <item nodeId="node-220">
-    <command xml:space="preserve">walls</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">MausoleuN&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-221"/>
+      <child nodeId="node-223"/>
+      <child nodeId="node-230"/>
+      <child nodeId="node-237"/>
+    </children>
   </item>
   <item nodeId="node-221">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You try to walk north, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">m</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1988,17 +2067,14 @@
     </children>
   </item>
   <item nodeId="node-222">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;You can see a mausoleu wall here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-223"/>
-    </children>
   </item>
   <item nodeId="node-223">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;You can see a mausoleu wall here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2006,8 +2082,8 @@
     </children>
   </item>
   <item nodeId="node-224">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;You can see a mausoleu wall here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">wall</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2015,8 +2091,8 @@
     </children>
   </item>
   <item nodeId="node-225">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look wall</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2024,8 +2100,8 @@
     </children>
   </item>
   <item nodeId="node-226">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">wall</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2033,56 +2109,17 @@
     </children>
   </item>
   <item nodeId="node-227">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-344">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">MausoleuNW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-345"/>
+      <child nodeId="node-228"/>
     </children>
-  </item>
-  <item nodeId="node-345">
-    <command xml:space="preserve">x tomb</command>
-    <result xml:space="preserve">The tomb is empty.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-346"/>
-    </children>
-  </item>
-  <item nodeId="node-346">
-    <command xml:space="preserve">open tomb</command>
-    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-347"/>
-    </children>
-  </item>
-  <item nodeId="node-347">
-    <command xml:space="preserve">x lid</command>
-    <result xml:space="preserve">You see nothing special about the lid.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-348"/>
-    </children>
-  </item>
-  <item nodeId="node-348">
-    <command xml:space="preserve">x elevation</command>
-    <result xml:space="preserve">The tomb is empty.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
   </item>
   <item nodeId="node-228">
-    <command xml:space="preserve">x wall</command>
-    <result xml:space="preserve">It's too dark to see anything.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">wall</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2090,14 +2127,14 @@
     </children>
   </item>
   <item nodeId="node-229">
-    <command xml:space="preserve">touch wall</command>
-    <result xml:space="preserve">Actually, you can't find any walls in this part.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">walls</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
   <item nodeId="node-230">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You try to walk north, but you hit a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2105,37 +2142,35 @@
     </children>
   </item>
   <item nodeId="node-231">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">MausoleuN&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;You can see a dark wall here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;You can see a mausoleu wall here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-232"/>
+    </children>
   </item>
   <item nodeId="node-232">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">MausoleuSW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;You can see a mausoleu wall here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-233"/>
-      <child nodeId="node-252"/>
-      <child nodeId="node-253"/>
-      <child nodeId="node-256"/>
-      <child nodeId="node-364"/>
     </children>
   </item>
   <item nodeId="node-233">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You try to walk west, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;You can see a mausoleu wall here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-234"/>
-      <child nodeId="node-249"/>
     </children>
   </item>
   <item nodeId="node-234">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2143,8 +2178,8 @@
     </children>
   </item>
   <item nodeId="node-235">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2152,17 +2187,14 @@
     </children>
   </item>
   <item nodeId="node-236">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-237"/>
-    </children>
   </item>
   <item nodeId="node-237">
     <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">MausoleuNW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2170,8 +2202,8 @@
     </children>
   </item>
   <item nodeId="node-238">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x tomb</command>
+    <result xml:space="preserve">The tomb is empty.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2179,8 +2211,8 @@
     </children>
   </item>
   <item nodeId="node-239">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">open tomb</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2188,8 +2220,8 @@
     </children>
   </item>
   <item nodeId="node-240">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x lid</command>
+    <result xml:space="preserve">You see nothing special about the lid.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2197,17 +2229,14 @@
     </children>
   </item>
   <item nodeId="node-241">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x elevation</command>
+    <result xml:space="preserve">The tomb is empty.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-242"/>
-    </children>
   </item>
   <item nodeId="node-242">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">It's too dark to see anything.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2215,17 +2244,14 @@
     </children>
   </item>
   <item nodeId="node-243">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">touch wall</command>
+    <result xml:space="preserve">Actually, you can't find any walls in this part.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-244"/>
-    </children>
   </item>
   <item nodeId="node-244">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2233,41 +2259,46 @@
     </children>
   </item>
   <item nodeId="node-245">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">MausoleuN&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;You can see a dark wall here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-246"/>
-    </children>
   </item>
   <item nodeId="node-246">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuSW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-247"/>
+      <child nodeId="node-266"/>
+      <child nodeId="node-267"/>
+      <child nodeId="node-270"/>
+      <child nodeId="node-272"/>
     </children>
   </item>
   <item nodeId="node-247">
-    <command xml:space="preserve">s</command>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You try to walk west, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-248"/>
+      <child nodeId="node-263"/>
+    </children>
+  </item>
+  <item nodeId="node-248">
+    <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-248"/>
+      <child nodeId="node-249"/>
     </children>
   </item>
-  <item nodeId="node-248">
-    <command xml:space="preserve">d</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
   <item nodeId="node-249">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">MausoleuW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2275,8 +2306,8 @@
     </children>
   </item>
   <item nodeId="node-250">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">MausoleuNW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2284,20 +2315,26 @@
     </children>
   </item>
   <item nodeId="node-251">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You try to walk north, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-252"/>
+    </children>
   </item>
   <item nodeId="node-252">
-    <command xml:space="preserve">smell</command>
-    <result xml:space="preserve">The wet grass must be here. It's smell is somehow pleasing.&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-253"/>
+    </children>
   </item>
   <item nodeId="node-253">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;You can see a dark wall here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2305,8 +2342,8 @@
     </children>
   </item>
   <item nodeId="node-254">
-    <command xml:space="preserve">x wall</command>
-    <result xml:space="preserve">It's too dark to see anything.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2314,14 +2351,17 @@
     </children>
   </item>
   <item nodeId="node-255">
-    <command xml:space="preserve">touch wall</command>
-    <result xml:space="preserve">It's cold to the touch. You reckon this is just a concrete wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-256"/>
+    </children>
   </item>
   <item nodeId="node-256">
-    <command xml:space="preserve">punch wall</command>
-    <result xml:space="preserve">You punch the wall and it comes tumbling down. &#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2329,72 +2369,35 @@
     </children>
   </item>
   <item nodeId="node-257">
-    <command xml:space="preserve">punch wall</command>
-    <result xml:space="preserve">You punch the wall and it comes tumbling down. &#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-364">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">MausoleuW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-365"/>
+      <child nodeId="node-258"/>
     </children>
-  </item>
-  <item nodeId="node-365">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">MausoleuNW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-366"/>
-    </children>
-  </item>
-  <item nodeId="node-366">
-    <command xml:space="preserve">x tomb</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-367"/>
-    </children>
-  </item>
-  <item nodeId="node-367">
-    <command xml:space="preserve">x elevation</command>
-    <result xml:space="preserve">You see nothing special about the elevation.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-368"/>
-    </children>
-  </item>
-  <item nodeId="node-368">
-    <command xml:space="preserve">open elevation</command>
-    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
   </item>
   <item nodeId="node-258">
-    <command xml:space="preserve">smell</command>
-    <result xml:space="preserve">&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-259"/>
-      <child nodeId="node-260"/>
     </children>
   </item>
   <item nodeId="node-259">
-    <command xml:space="preserve">listen</command>
-    <result xml:space="preserve">You hear a faint buzzling sound. You can't pinpoint its location, though&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-260"/>
+    </children>
   </item>
   <item nodeId="node-260">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">MausoleuE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2402,8 +2405,8 @@
     </children>
   </item>
   <item nodeId="node-261">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">MausoleuC&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2411,23 +2414,23 @@
     </children>
   </item>
   <item nodeId="node-262">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-263">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">MausoleuN&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">MausoleuW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-263"/>
+      <child nodeId="node-264"/>
     </children>
   </item>
-  <item nodeId="node-263">
-    <command xml:space="preserve">smell</command>
-    <result xml:space="preserve">You smell a faint odor of grass. It's weak though&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
   <item nodeId="node-264">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">MausoleuNW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2435,23 +2438,20 @@
     </children>
   </item>
   <item nodeId="node-265">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">MausoleuSE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You try to walk north, but you hit a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
   <item nodeId="node-266">
-    <command xml:space="preserve">examine wall</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">smell</command>
+    <result xml:space="preserve">The wet grass must be here. It's smell is somehow pleasing.&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-267"/>
-    </children>
   </item>
   <item nodeId="node-267">
-    <command xml:space="preserve">touch wall</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;You can see a dark wall here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2459,8 +2459,8 @@
     </children>
   </item>
   <item nodeId="node-268">
-    <command xml:space="preserve">touch walls</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">It's too dark to see anything.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2468,55 +2468,47 @@
     </children>
   </item>
   <item nodeId="node-269">
-    <command xml:space="preserve">x </command>
-    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">touch wall</command>
+    <result xml:space="preserve">It's cold to the touch. You reckon this is just a concrete wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-270"/>
-    </children>
   </item>
   <item nodeId="node-270">
-    <command xml:space="preserve">wall</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">punch wall</command>
+    <result xml:space="preserve">You punch the wall and it comes tumbling down. &#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-  </item>
-  <item nodeId="node-271">
-    <command xml:space="preserve">x wall</command>
-    <result xml:space="preserve">You can't see any walls in this darkness. It's like your eyes are totally useless.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
     <children>
-      <child nodeId="node-272"/>
-      <child nodeId="node-273"/>
-      <child nodeId="node-286"/>
-      <child nodeId="node-291"/>
-      <child nodeId="node-292"/>
-      <child nodeId="node-294"/>
-      <child nodeId="node-301"/>
-      <child nodeId="node-302"/>
+      <child nodeId="node-271"/>
     </children>
   </item>
-  <item nodeId="node-272">
-    <command xml:space="preserve">x walls</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-271">
+    <command xml:space="preserve">punch wall</command>
+    <result xml:space="preserve">You punch the wall and it comes tumbling down. &#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+  </item>
+  <item nodeId="node-272">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">MausoleuW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-273"/>
+    </children>
   </item>
   <item nodeId="node-273">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">MausoleuE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">MausoleuNW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-274"/>
-      <child nodeId="node-276"/>
     </children>
   </item>
   <item nodeId="node-274">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">MausoleuC&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x tomb</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2524,39 +2516,39 @@
     </children>
   </item>
   <item nodeId="node-275">
-    <command xml:space="preserve">x wall</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x elevation</command>
+    <result xml:space="preserve">You see nothing special about the elevation.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-276"/>
+    </children>
+  </item>
+  <item nodeId="node-276">
+    <command xml:space="preserve">open elevation</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-276">
-    <command xml:space="preserve">x wall</command>
-    <result xml:space="preserve">It's just a wall.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-277">
+    <command xml:space="preserve">smell</command>
+    <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
     <children>
-      <child nodeId="node-277"/>
+      <child nodeId="node-278"/>
       <child nodeId="node-279"/>
     </children>
   </item>
-  <item nodeId="node-277">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">MausoleuNE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-278"/>
-    </children>
-  </item>
   <item nodeId="node-278">
-    <command xml:space="preserve">x wall</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">You hear a faint buzzling sound. You can't pinpoint its location, though&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
   <item nodeId="node-279">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">MausoleuSE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">MausoleuE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2564,8 +2556,8 @@
     </children>
   </item>
   <item nodeId="node-280">
-    <command xml:space="preserve">x wall</command>
-    <result xml:space="preserve">It's just a wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuC&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2573,8 +2565,8 @@
     </children>
   </item>
   <item nodeId="node-281">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You try to walk east, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">MausoleuN&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2582,17 +2574,14 @@
     </children>
   </item>
   <item nodeId="node-282">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">MausoleuS&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">smell</command>
+    <result xml:space="preserve">You smell a faint odor of grass. It's weak though&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-283"/>
-    </children>
   </item>
   <item nodeId="node-283">
-    <command xml:space="preserve">x wall</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2600,23 +2589,23 @@
     </children>
   </item>
   <item nodeId="node-284">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">MausoleuC&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">MausoleuSE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-285"/>
-    </children>
   </item>
   <item nodeId="node-285">
-    <command xml:space="preserve">x wall</command>
+    <command xml:space="preserve">examine wall</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-286"/>
+    </children>
   </item>
   <item nodeId="node-286">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You try to walk south, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">touch wall</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2624,8 +2613,8 @@
     </children>
   </item>
   <item nodeId="node-287">
-    <command xml:space="preserve">x wall</command>
-    <result xml:space="preserve">It's just a wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">touch walls</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2633,8 +2622,8 @@
     </children>
   </item>
   <item nodeId="node-288">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">MausoleuE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x </command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2642,62 +2631,71 @@
     </children>
   </item>
   <item nodeId="node-289">
+    <command xml:space="preserve">wall</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-290">
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">You can't see any walls in this darkness. It's like your eyes are totally useless.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-291"/>
+      <child nodeId="node-292"/>
+      <child nodeId="node-305"/>
+      <child nodeId="node-310"/>
+      <child nodeId="node-311"/>
+      <child nodeId="node-313"/>
+      <child nodeId="node-320"/>
+      <child nodeId="node-321"/>
+    </children>
+  </item>
+  <item nodeId="node-291">
+    <command xml:space="preserve">x walls</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-292">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">MausoleuE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-293"/>
+      <child nodeId="node-295"/>
+    </children>
+  </item>
+  <item nodeId="node-293">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">MausoleuC&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-290"/>
+      <child nodeId="node-294"/>
     </children>
-  </item>
-  <item nodeId="node-290">
-    <command xml:space="preserve">x wall</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-291">
-    <command xml:space="preserve">eat wall</command>
-    <result xml:space="preserve">You search for a wall, but you can't find any&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-292">
-    <command xml:space="preserve">x wal</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-293"/>
-    </children>
-  </item>
-  <item nodeId="node-293">
-    <command xml:space="preserve">x wall</command>
-    <result xml:space="preserve">&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
   </item>
   <item nodeId="node-294">
-    <command xml:space="preserve">x mausoleu wall</command>
-    <result xml:space="preserve">It's just a wall.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-295"/>
-    </children>
-  </item>
-  <item nodeId="node-295">
-    <command xml:space="preserve">x dirty wall</command>
+    <command xml:space="preserve">x wall</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+  </item>
+  <item nodeId="node-295">
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">It's just a wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-296"/>
+      <child nodeId="node-298"/>
     </children>
   </item>
   <item nodeId="node-296">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">MausoleuE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">MausoleuNE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2705,17 +2703,14 @@
     </children>
   </item>
   <item nodeId="node-297">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">MausoleuC&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-298"/>
-    </children>
-  </item>
-  <item nodeId="node-298">
     <command xml:space="preserve">x wall</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-298">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">MausoleuSE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2723,8 +2718,8 @@
     </children>
   </item>
   <item nodeId="node-299">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">MausoleuN&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">It's just a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2732,29 +2727,35 @@
     </children>
   </item>
   <item nodeId="node-300">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You try to walk east, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-301"/>
+    </children>
+  </item>
+  <item nodeId="node-301">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuS&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-302"/>
+    </children>
+  </item>
+  <item nodeId="node-302">
     <command xml:space="preserve">x wall</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-  </item>
-  <item nodeId="node-301">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">(the dark wall)&#x000A;It's too dark to see anything.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
-  </item>
-  <item nodeId="node-302">
-    <command xml:space="preserve">touch wall</command>
-    <result xml:space="preserve">It's cold to the touch. You reckon this is just a concrete wall.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
     <children>
       <child nodeId="node-303"/>
     </children>
   </item>
   <item nodeId="node-303">
-    <command xml:space="preserve">punch wall</command>
-    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">MausoleuC&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2762,17 +2763,14 @@
     </children>
   </item>
   <item nodeId="node-304">
-    <command xml:space="preserve">kill wall</command>
-    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-305"/>
-    </children>
   </item>
   <item nodeId="node-305">
-    <command xml:space="preserve">rape wall</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You try to walk south, but you hit a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2780,8 +2778,8 @@
     </children>
   </item>
   <item nodeId="node-306">
-    <command xml:space="preserve">touch wall ar MausoleuSE</command>
-    <result xml:space="preserve">I only understood you as far as wanting to touch the mausoleu wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">It's just a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2789,14 +2787,17 @@
     </children>
   </item>
   <item nodeId="node-307">
-    <command xml:space="preserve">touch wall at MausoleuSE</command>
-    <result xml:space="preserve">I only understood you as far as wanting to touch the mausoleu wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">MausoleuE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-308"/>
+    </children>
   </item>
   <item nodeId="node-308">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuC&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2804,27 +2805,20 @@
     </children>
   </item>
   <item nodeId="node-309">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;You can see a dark wall here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
-    <children>
-      <child nodeId="node-310"/>
-      <child nodeId="node-317"/>
-    </children>
-  </item>
-  <item nodeId="node-310">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">MausoleuNE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-311"/>
-    </children>
+  </item>
+  <item nodeId="node-310">
+    <command xml:space="preserve">eat wall</command>
+    <result xml:space="preserve">You search for a wall, but you can't find any&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
   </item>
   <item nodeId="node-311">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You try to walk north, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x wal</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2832,17 +2826,14 @@
     </children>
   </item>
   <item nodeId="node-312">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">MausoleuN&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-313"/>
-    </children>
   </item>
   <item nodeId="node-313">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You bump into something amidst the dark. You can't see what it is, but you guess it's about the height of your hip.&#x000A;&#x000A;MausoleuNW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x mausoleu wall</command>
+    <result xml:space="preserve">It's just a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2850,8 +2841,8 @@
     </children>
   </item>
   <item nodeId="node-314">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You try to walk west, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x dirty wall</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2859,8 +2850,8 @@
     </children>
   </item>
   <item nodeId="node-315">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">MausoleuW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">MausoleuE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2868,14 +2859,17 @@
     </children>
   </item>
   <item nodeId="node-316">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You bump into something amidst the dark. You can't see what it is, but you guess it's about the height of your hip.&#x000A;&#x000A;MausoleuNW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuC&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-317"/>
+    </children>
   </item>
   <item nodeId="node-317">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2883,8 +2877,8 @@
     </children>
   </item>
   <item nodeId="node-318">
-    <command xml:space="preserve">touch wall</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">MausoleuN&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2898,33 +2892,32 @@
     <changed>NO</changed>
   </item>
   <item nodeId="node-320">
-    <command xml:space="preserve">x walls</command>
-    <result xml:space="preserve">There seems to be walls nearby, but you can't see them with your eyes.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">(the dark wall)&#x000A;It's too dark to see anything.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
-    <children>
-      <child nodeId="node-321"/>
-      <child nodeId="node-323"/>
-    </children>
   </item>
   <item nodeId="node-321">
-    <command xml:space="preserve">x wall</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">touch wall</command>
+    <result xml:space="preserve">It's cold to the touch. You reckon this is just a concrete wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-322"/>
     </children>
   </item>
   <item nodeId="node-322">
-    <command xml:space="preserve">x x</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">punch wall</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-323"/>
+    </children>
   </item>
   <item nodeId="node-323">
-    <command xml:space="preserve">touch walls</command>
-    <result xml:space="preserve">It's cold to the touch. You reckon this is just a concrete wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">kill wall</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2932,8 +2925,8 @@
     </children>
   </item>
   <item nodeId="node-324">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">MausoleuE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">rape wall</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2941,8 +2934,8 @@
     </children>
   </item>
   <item nodeId="node-325">
-    <command xml:space="preserve">touch walls</command>
-    <result xml:space="preserve">It's cold to the touch. You reckon this is just a concrete wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">touch wall ar MausoleuSE</command>
+    <result xml:space="preserve">I only understood you as far as wanting to touch the mausoleu wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2950,43 +2943,42 @@
     </children>
   </item>
   <item nodeId="node-326">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">MausoleuC&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">touch wall at MausoleuSE</command>
+    <result xml:space="preserve">I only understood you as far as wanting to touch the mausoleu wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-327"/>
-    </children>
   </item>
   <item nodeId="node-327">
-    <command xml:space="preserve">touch walls</command>
-    <result xml:space="preserve">Actually, you can't find any walls in this part.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-328">
-    <command xml:space="preserve">punch wall</command>
-    <result xml:space="preserve">You punch the wall and it comes tumbling down. The wall is broken&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
+      <child nodeId="node-328"/>
+    </children>
+  </item>
+  <item nodeId="node-328">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;You can see a dark wall here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
       <child nodeId="node-329"/>
-      <child nodeId="node-334"/>
+      <child nodeId="node-336"/>
     </children>
   </item>
   <item nodeId="node-329">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">MausoleuS&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">MausoleuNE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-330"/>
-      <child nodeId="node-333"/>
     </children>
   </item>
   <item nodeId="node-330">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">MausoleuSW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You try to walk north, but you hit a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2994,8 +2986,8 @@
     </children>
   </item>
   <item nodeId="node-331">
-    <command xml:space="preserve">punch wall</command>
-    <result xml:space="preserve">You punch the wall, but it doesn't seem to do anything. Now your hand hurts.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuN&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -3003,20 +2995,26 @@
     </children>
   </item>
   <item nodeId="node-332">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You try to walk south, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You bump into something amidst the dark. You can't see what it is, but you guess it's about the height of your hip.&#x000A;&#x000A;MausoleuNW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-333"/>
+    </children>
   </item>
   <item nodeId="node-333">
-    <command xml:space="preserve">punch wall</command>
-    <result xml:space="preserve">You punch the wall, but it doesn't seem to do anything. Now your hand hurts.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You try to walk west, but you hit a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-334"/>
+    </children>
   </item>
   <item nodeId="node-334">
     <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You try to walk south, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">MausoleuW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -3024,23 +3022,23 @@
     </children>
   </item>
   <item nodeId="node-335">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You bump into something amidst the dark. You can't see what it is, but you guess it's about the height of your hip.&#x000A;&#x000A;MausoleuNW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-336">
     <command xml:space="preserve">w</command>
-    <result xml:space="preserve">MausoleuS&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">???&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-336"/>
+      <child nodeId="node-337"/>
     </children>
   </item>
-  <item nodeId="node-336">
-    <command xml:space="preserve">punch wall</command>
-    <result xml:space="preserve">You punch the wall and it comes tumbling down. The wall is broken&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
   <item nodeId="node-337">
-    <command xml:space="preserve">s[</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">touch wall</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -3048,26 +3046,24 @@
     </children>
   </item>
   <item nodeId="node-338">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You try to walk south, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-339"/>
-    </children>
   </item>
   <item nodeId="node-339">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You try to walk south, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x walls</command>
+    <result xml:space="preserve">There seems to be walls nearby, but you can't see them with your eyes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-340"/>
+      <child nodeId="node-342"/>
     </children>
   </item>
   <item nodeId="node-340">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">MausoleuS&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -3075,17 +3071,14 @@
     </children>
   </item>
   <item nodeId="node-341">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">MausoleuSW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x x</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-342"/>
-    </children>
   </item>
   <item nodeId="node-342">
-    <command xml:space="preserve">punch wall</command>
-    <result xml:space="preserve">You punch the wall and it comes tumbling down. &#x000A;&gt;</result>
+    <command xml:space="preserve">touch walls</command>
+    <result xml:space="preserve">It's cold to the touch. You reckon this is just a concrete wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -3093,14 +3086,167 @@
     </children>
   </item>
   <item nodeId="node-343">
-    <command xml:space="preserve">punch wall</command>
-    <result xml:space="preserve">You punch the wall and it comes tumbling down. &#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">MausoleuE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-344"/>
+    </children>
+  </item>
+  <item nodeId="node-344">
+    <command xml:space="preserve">touch walls</command>
+    <result xml:space="preserve">It's cold to the touch. You reckon this is just a concrete wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-345"/>
+    </children>
+  </item>
+  <item nodeId="node-345">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuC&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-346"/>
+    </children>
+  </item>
+  <item nodeId="node-346">
+    <command xml:space="preserve">touch walls</command>
+    <result xml:space="preserve">Actually, you can't find any walls in this part.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
+  <item nodeId="node-347">
+    <command xml:space="preserve">punch wall</command>
+    <result xml:space="preserve">You punch wall the wall and it comes tumbling down. The wall is already broken&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-348"/>
+      <child nodeId="node-353"/>
+      <child nodeId="node-398"/>
+    </children>
+  </item>
+  <item nodeId="node-348">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuS&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-349"/>
+      <child nodeId="node-352"/>
+    </children>
+  </item>
+  <item nodeId="node-349">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuSW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-350"/>
+    </children>
+  </item>
+  <item nodeId="node-350">
+    <command xml:space="preserve">punch wall</command>
+    <result xml:space="preserve">You punch the wall, but it doesn't seem to do anything. Now your hand hurts.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-351"/>
+    </children>
+  </item>
+  <item nodeId="node-351">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You try to walk south, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-352">
+    <command xml:space="preserve">punch wall</command>
+    <result xml:space="preserve">You punch the wall, but it doesn't seem to do anything. Now your hand hurts.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-353">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You try to walk south, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-354"/>
+    </children>
+  </item>
+  <item nodeId="node-354">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuS&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-355"/>
+    </children>
+  </item>
+  <item nodeId="node-355">
+    <command xml:space="preserve">punch wall</command>
+    <result xml:space="preserve">You punch the wall and it comes tumbling down. The wall is broken&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-398">
+    <command xml:space="preserve">kick wall</command>
+    <result xml:space="preserve">The wall is already broken&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-399"/>
+    </children>
+  </item>
+  <item nodeId="node-399">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">MausoleuE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-400"/>
+    </children>
+  </item>
+  <item nodeId="node-400">
+    <command xml:space="preserve">kick wall</command>
+    <result xml:space="preserve">You kick wall the wall, but it doesn't seem to do anything. A great way to hurt your hand.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-401"/>
+    </children>
+  </item>
+  <item nodeId="node-401">
+    <command xml:space="preserve">attack wall</command>
+    <result xml:space="preserve">You attack wall the wall, but it doesn't seem to do anything. A great way to hurt your hand.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-402"/>
+    </children>
+  </item>
+  <item nodeId="node-402">
+    <command xml:space="preserve">break wall</command>
+    <result xml:space="preserve">You break wall the wall, but it doesn't seem to do anything. A great way to hurt your hand.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-356">
+    <command xml:space="preserve">s[</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-357"/>
+    </children>
+  </item>
   <item nodeId="node-357">
-    <command xml:space="preserve">go to MausoleuNW</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You try to walk south, but you hit a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -3108,8 +3254,8 @@
     </children>
   </item>
   <item nodeId="node-358">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">MausoleuE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You try to walk south, but you hit a wall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -3117,8 +3263,8 @@
     </children>
   </item>
   <item nodeId="node-359">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuS&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -3126,8 +3272,8 @@
     </children>
   </item>
   <item nodeId="node-360">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">MausoleuNE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuSW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -3135,8 +3281,8 @@
     </children>
   </item>
   <item nodeId="node-361">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">MausoleuN&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">punch wall</command>
+    <result xml:space="preserve">You punch the wall and it comes tumbling down. &#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -3144,17 +3290,176 @@
     </children>
   </item>
   <item nodeId="node-362">
+    <command xml:space="preserve">punch wall</command>
+    <result xml:space="preserve">You punch the wall and it comes tumbling down. &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-363">
+    <command xml:space="preserve">go to MausoleuNW</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-364"/>
+    </children>
+  </item>
+  <item nodeId="node-364">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">MausoleuE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-365"/>
+    </children>
+  </item>
+  <item nodeId="node-365">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-366"/>
+    </children>
+  </item>
+  <item nodeId="node-366">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">MausoleuNE&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-367"/>
+    </children>
+  </item>
+  <item nodeId="node-367">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuN&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-368"/>
+    </children>
+  </item>
+  <item nodeId="node-368">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">MausoleuNW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-363"/>
+      <child nodeId="node-369"/>
     </children>
   </item>
-  <item nodeId="node-363">
+  <item nodeId="node-369">
     <command xml:space="preserve">x elevation</command>
     <result xml:space="preserve">The elevation is empty.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-370">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">You try to walk northwest, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-371"/>
+    </children>
+  </item>
+  <item nodeId="node-371">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuS&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-372"/>
+    </children>
+  </item>
+  <item nodeId="node-372">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">MausoleuC&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-373"/>
+    </children>
+  </item>
+  <item nodeId="node-373">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">You try to walk northwest, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-374"/>
+    </children>
+  </item>
+  <item nodeId="node-374">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">MausoleuN&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-375"/>
+    </children>
+  </item>
+  <item nodeId="node-375">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">MausoleuNW&#x000A; Darkness looms left and right. You feel like you're not alone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-376"/>
+    </children>
+  </item>
+  <item nodeId="node-376">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You try to walk west, but you hit a wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-377"/>
+    </children>
+  </item>
+  <item nodeId="node-377">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-378"/>
+    </children>
+  </item>
+  <item nodeId="node-378">
+    <command xml:space="preserve">lid</command>
+    <result xml:space="preserve">You see nothing special about the lid.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-379"/>
+    </children>
+  </item>
+  <item nodeId="node-379">
+    <command xml:space="preserve">x elevation</command>
+    <result xml:space="preserve">You see nothing special about the elevation.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-380"/>
+    </children>
+  </item>
+  <item nodeId="node-380">
+    <command xml:space="preserve">open elevation</command>
+    <result xml:space="preserve">It's too dark to see the opening.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-403">
+    <command xml:space="preserve">break wall</command>
+    <result xml:space="preserve">You attacking the wall and it comes tumbling down. The wall is already broken&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-404">
+    <command xml:space="preserve">kick wall</command>
+    <result xml:space="preserve">You attacking the wall and it comes tumbling down. &#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
