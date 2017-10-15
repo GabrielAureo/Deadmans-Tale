@@ -3,11 +3,11 @@
     <story>
         <identification>
             <ifid>FE9250CC-C9FF-481F-ACD2-9794B6F38586</ifid>
-            <format>zcode</format>
+            <format>glulx</format>
         </identification>
         <bibliographic>
-            <title>DeadMan</title>
-            <author>Gabriel Aureo</author>
+            <title>Asura</title>
+            <author>Gabriel Aureo, Julio Rama, Thiago Panza and Gabriel Mattos</author>
             <headline>An Interactive Fiction</headline>
             <genre>Fiction</genre>
             <firstpublished>2017</firstpublished>
@@ -17,7 +17,7 @@
         <releases>
             <attached>
                 <release>
-                    <releasedate>2017-10-08</releasedate>
+                    <releasedate>2017-10-15</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>6M62</compilerversion>
@@ -27,12 +27,12 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>6M62</generatorversion>
-            <originated>2017-10-08</originated>
+            <originated>2017-10-15</originated>
         </colophon>
-        <zcode>
-            <serial>171008</serial>
+        <glulx>
+            <serial>171015</serial>
             <release>1</release>
             <compiler>Inform 7 build 6M62</compiler>
-        </zcode>
+        </glulx>
     </story>
 </ifindex>

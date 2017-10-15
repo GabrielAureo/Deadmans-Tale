@@ -10,8 +10,8 @@ release to "C:\Users\Gabriel Aureo\Documents\Inform\Projects\DeadMan.materials\R
 
 ! Blorb instructions
 
-storyfile leafname "DeadMan.zblorb"
-storyfile "C:\Users\Gabriel Aureo\Documents\Inform\Projects\DeadMan.inform\Build\output.z8" include
+storyfile leafname "Asura.gblorb"
+storyfile "C:\Users\Gabriel Aureo\Documents\Inform\Projects\DeadMan.inform\Build\output.ulx" include
 ifiction "C:\Users\Gabriel Aureo\Documents\Inform\Projects\DeadMan.inform\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
@@ -21,8 +21,8 @@ picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 placeholder [IFID] = "FE9250CC-C9FF-481F-ACD2-9794B6F38586"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2017"
-placeholder [TITLE] = "DeadMan"
-placeholder [AUTHOR] = "Gabriel Aureo"
+placeholder [TITLE] = "Asura"
+placeholder [AUTHOR] = "Gabriel Aureo, Julio Rama, Thiago Panza and Gabriel Mattos"
 placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release
