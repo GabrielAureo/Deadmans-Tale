@@ -968,111 +968,181 @@
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>138</key><dict>
-        <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\philip black\adventure game crafting system.i7x</string>
+        <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\philip black\alchemy poison & item crafting engine.i7x</string>
         <key>Line</key><integer>1</integer>
-        <key>Title</key><string>Adventure Game Crafting System by Philip Black begins here</string>
+        <key>Title</key><string>Alchemy Poison &amp; Item Crafting Engine by Philip Black begins here</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>139</key><dict>
-        <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\philip black\adventure game crafting system.i7x</string>
-        <key>Line</key><integer>7</integer>
+        <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\philip black\alchemy poison & item crafting engine.i7x</string>
+        <key>Line</key><integer>27</integer>
         <key>Title</key><string>Section - Relations</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>140</key><dict>
-        <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\philip black\adventure game crafting system.i7x</string>
-        <key>Line</key><integer>22</integer>
-        <key>Title</key><string>Section Machines and Tools</string>
+        <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\philip black\alchemy poison & item crafting engine.i7x</string>
+        <key>Line</key><integer>43</integer>
+        <key>Title</key><string>Section - making Inform recognise the new 'use' comand</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>141</key><dict>
-        <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\philip black\adventure game crafting system.i7x</string>
-        <key>Line</key><integer>32</integer>
-        <key>Title</key><string>Section - Preventing the new 'use' comand locking up the game - Try activating these if you have problems testing</string>
+        <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\philip black\alchemy poison & item crafting engine.i7x</string>
+        <key>Line</key><integer>48</integer>
+        <key>Title</key><string>Section Machines and Tools</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>142</key><dict>
-        <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\philip black\adventure game crafting system.i7x</string>
-        <key>Line</key><integer>41</integer>
-        <key>Title</key><string>Section Crafting</string>
+        <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\philip black\alchemy poison & item crafting engine.i7x</string>
+        <key>Line</key><integer>62</integer>
+        <key>Title</key><string>Section - Alchemy &amp; Poison</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>143</key><dict>
+        <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\philip black\alchemy poison & item crafting engine.i7x</string>
+        <key>Line</key><integer>140</integer>
+        <key>Title</key><string>Section - You'll want that back</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>144</key><dict>
+        <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\philip black\alchemy poison & item crafting engine.i7x</string>
+        <key>Line</key><integer>156</integer>
+        <key>Title</key><string>Section - Good Cleaning Things for reuse</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>145</key><dict>
+        <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\philip black\alchemy poison & item crafting engine.i7x</string>
+        <key>Line</key><integer>188</integer>
+        <key>Title</key><string>Section - Scrubbing Tools</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>146</key><dict>
+        <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\philip black\alchemy poison & item crafting engine.i7x</string>
+        <key>Line</key><integer>222</integer>
+        <key>Title</key><string>Section - Scrubbing Machines</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>147</key><dict>
+        <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\philip black\alchemy poison & item crafting engine.i7x</string>
+        <key>Line</key><integer>256</integer>
+        <key>Title</key><string>Section - Scrubbing Flasks</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>148</key><dict>
+        <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\philip black\alchemy poison & item crafting engine.i7x</string>
+        <key>Line</key><integer>353</integer>
+        <key>Title</key><string>Section - Testing For Poison</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>149</key><dict>
+        <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\philip black\alchemy poison & item crafting engine.i7x</string>
+        <key>Line</key><integer>389</integer>
+        <key>Title</key><string>Section - Purifying poison from potions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>150</key><dict>
+        <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\philip black\alchemy poison & item crafting engine.i7x</string>
+        <key>Line</key><integer>455</integer>
+        <key>Title</key><string>Section - Drinking a Potion</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>151</key><dict>
+        <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\philip black\alchemy poison & item crafting engine.i7x</string>
+        <key>Line</key><integer>484</integer>
+        <key>Title</key><string>Section -------------------------------------------------------- Crafting --------------------------------------------------------</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>152</key><dict>
+        <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\philip black\alchemy poison & item crafting engine.i7x</string>
+        <key>Line</key><integer>974</integer>
+        <key>Title</key><string>Section - Preventing the new 'use' comand locking up the game - Try activating these if you have problems testing</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>153</key><dict>
         <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\jesse mcgrew\dynamic objects.i7x</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>Version 8/140515 of Dynamic Objects (for Glulx only) by Jesse McGrew begins here</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
-    <key>144</key><dict>
+    <key>154</key><dict>
         <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\jesse mcgrew\dynamic objects.i7x</string>
         <key>Line</key><integer>7</integer>
         <key>Title</key><string>Chapter 1 - Cloning objects</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
-    <key>145</key><dict>
+    <key>155</key><dict>
         <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\jesse mcgrew\dynamic objects.i7x</string>
         <key>Line</key><integer>16</integer>
         <key>Title</key><string>Section 1 - 'a new object cloned from'</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
-    <key>146</key><dict>
+    <key>156</key><dict>
         <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\jesse mcgrew\dynamic objects.i7x</string>
         <key>Line</key><integer>70</integer>
         <key>Title</key><string>Section 2 - Cloning the property table</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
-    <key>147</key><dict>
+    <key>157</key><dict>
         <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\jesse mcgrew\dynamic objects.i7x</string>
         <key>Line</key><integer>109</integer>
         <key>Title</key><string>Section 3 - Linking the new object into the world model</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
-    <key>148</key><dict>
+    <key>158</key><dict>
         <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\jesse mcgrew\dynamic objects.i7x</string>
         <key>Line</key><integer>196</integer>
         <key>Title</key><string>Section 4 - Restoring the object's ability to relate, and possibly its relationships</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
-    <key>149</key><dict>
+    <key>159</key><dict>
         <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\jesse mcgrew\dynamic objects.i7x</string>
         <key>Line</key><integer>420</integer>
         <key>Title</key><string>Section 5 - A hack to make block-valued properties work in cloned objects</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
-    <key>150</key><dict>
+    <key>160</key><dict>
         <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\jesse mcgrew\dynamic tables.i7x</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>Version 5/140908 of Dynamic Tables by Jesse McGrew begins here</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
-    <key>151</key><dict>
+    <key>161</key><dict>
         <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\jesse mcgrew\dynamic tables.i7x</string>
         <key>Line</key><integer>5</integer>
         <key>Title</key><string>Chapter 1 - New stuff</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
-    <key>152</key><dict>
+    <key>162</key><dict>
         <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\jesse mcgrew\dynamic tables.i7x</string>
         <key>Line</key><integer>389</integer>
         <key>Title</key><string>Chapter 2 - Library replacements</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
-    <key>153</key><dict>
+    <key>163</key><dict>
         <key>Filename</key><string>C:\Users\Gabriel Aureo\Documents\Inform\Extensions\jesse mcgrew\dynamic tables.i7x</string>
         <key>Line</key><integer>391</integer>
         <key>Title</key><string>Section 1 - Using the dynamic blank bits</string>

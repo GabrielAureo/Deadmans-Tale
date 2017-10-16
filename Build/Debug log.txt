@@ -1,5 +1,5 @@
 Debugging log of Inform 7
-Inform called as: C:\Program Files (x86)\Inform 7\Compilers\ni -internal C:\Program Files (x86)\Inform 7\Internal -project C:\Users\Gabriel Aureo\Documents\Inform\Projects\DeadMan.inform -format=ulx
+Inform called as: C:\Program Files (x86)\Inform 7\Compilers\ni -release -internal C:\Program Files (x86)\Inform 7\Internal -project C:\Users\Gabriel Aureo\Documents\Inform\Projects\DeadMan.inform -format=ulx
 Found language bundle 'English' (built in)
 Found language bundle 'French' (built in)
 Found language bundle 'German' (built in)
@@ -14,7 +14,7 @@ Reading language definition from <C:\Program Files (x86)\Inform 7\Internal\Langu
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 6393 words long.
+I've now read your source text, which is 7347 words long.
 
 
 -----------------------------------------------------
@@ -24,7 +24,7 @@ Phase II ... Semantic analysis Ia
 I've also read Standard Rules by Graham Nelson, which is 42655 words long.
 I've also read English Language by Graham Nelson, which is 2297 words long.
 I've also read Basic Screen Effects by Emily Short, which is 2218 words long.
-I've also read Adventure Game Crafting System by Philip Black, which is 1763 words long.
+I've also read Alchemy Poison & Item Crafting Engine by Philip Black, which is 16349 words long.
 I've also read Dynamic Objects by Jesse McGrew, which is 1222 words long.
 I've also read Dynamic Tables by Jesse McGrew, which is 1979 words long.
 
@@ -178,8 +178,8 @@ Providing for a total heap of 8192, given requirement of 8192
 Phase XIII ... Compilation now complete
 -----------------------------------------------------
 
-Total of 114 files written as streams.
-CPU time: 162 centiseconds
+Total of 115 files written as streams.
+CPU time: 213 centiseconds
 
 
 That concludes the debugging log from this run of Inform.

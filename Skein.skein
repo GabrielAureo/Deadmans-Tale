@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-1466"/>
+  <activeNode nodeId="node-1871"/>
   <item nodeId="node-1">
     <command xml:space="preserve">DeadMan</command>
     <result xml:space="preserve">Temple of Indra&#x000A;You find yourself in a religious ceremony. Three of your fellow monks are gathered before a priest. There are four pedestals north of you, with the priest standing beside them.&#x000A;&#x000A;You can see a Priest of Indra, Mahit, Basdev and Kastha here.&#x000A;&#x000A;&gt;</result>
@@ -98,6 +98,26 @@
       <child nodeId="node-1453"/>
       <child nodeId="node-1456"/>
       <child nodeId="node-1463"/>
+      <child nodeId="node-1467"/>
+      <child nodeId="node-1477"/>
+      <child nodeId="node-1478"/>
+      <child nodeId="node-1480"/>
+      <child nodeId="node-1481"/>
+      <child nodeId="node-1484"/>
+      <child nodeId="node-1492"/>
+      <child nodeId="node-1507"/>
+      <child nodeId="node-1509"/>
+      <child nodeId="node-1511"/>
+      <child nodeId="node-1515"/>
+      <child nodeId="node-1518"/>
+      <child nodeId="node-1522"/>
+      <child nodeId="node-1524"/>
+      <child nodeId="node-1527"/>
+      <child nodeId="node-1533"/>
+      <child nodeId="node-1539"/>
+      <child nodeId="node-1558"/>
+      <child nodeId="node-1635"/>
+      <child nodeId="node-1820"/>
     </children>
   </item>
   <item nodeId="node-2">
@@ -9293,7 +9313,7 @@
     <command xml:space="preserve">talk to priest</command>
     <result xml:space="preserve">"Hello, young Kalinda. I am the priest of Indra, and these three are the others that you might've heard about: Mahit, Basdev and Kastha."</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-1032"/>
       <child nodeId="node-1038"/>
@@ -9354,7 +9374,7 @@
     <command xml:space="preserve">[enter]</command>
     <result xml:space="preserve">"I must congratulate each one of you for achieving what you just did. Not everyone can become one of the top four monks of the kingdom. As per tradition, each one of you shall receive the blessings of a god."</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-1039"/>
     </children>
@@ -9363,7 +9383,7 @@
     <command xml:space="preserve">[enter]</command>
     <result xml:space="preserve">"I have taken the precautions based on that past incident. Each of you will have to learn of the abilities of each of your fellow monks, and then we shall procede by granting each of your boons one at a time."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-1040"/>
       <child nodeId="node-1054"/>
@@ -9445,6 +9465,7 @@
     <changed>NO</changed>
     <children>
       <child nodeId="node-1055"/>
+      <child nodeId="node-1713"/>
     </children>
   </item>
   <item nodeId="node-1055">
@@ -9828,6 +9849,966 @@
   <item nodeId="node-1097">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">There are none at all available!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1713">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1714"/>
+    </children>
+  </item>
+  <item nodeId="node-1714">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1715"/>
+    </children>
+  </item>
+  <item nodeId="node-1715">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1716"/>
+    </children>
+  </item>
+  <item nodeId="node-1716">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1717"/>
+    </children>
+  </item>
+  <item nodeId="node-1717">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1718"/>
+    </children>
+  </item>
+  <item nodeId="node-1718">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1719"/>
+    </children>
+  </item>
+  <item nodeId="node-1719">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1720"/>
+    </children>
+  </item>
+  <item nodeId="node-1720">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1721"/>
+    </children>
+  </item>
+  <item nodeId="node-1721">
+    <command xml:space="preserve">talk to mahit</command>
+    <result xml:space="preserve">"Hey man, how's it going?"</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1722"/>
+    </children>
+  </item>
+  <item nodeId="node-1722">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"You must be that Kalinda dude the priest mentioned, right?"</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1723"/>
+    </children>
+  </item>
+  <item nodeId="node-1723">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"Man, all this chitchat before the boon is pretty boring, dontcha think?"</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1724"/>
+    </children>
+  </item>
+  <item nodeId="node-1724">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"Let's just get straight to the point, "k?"</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1725"/>
+    </children>
+  </item>
+  <item nodeId="node-1725">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"I know you're a follower of Varuna, I've studied those. No need to explain anything to me, "k?"</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1726"/>
+    </children>
+  </item>
+  <item nodeId="node-1726">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"You don't look like you've done your homework, so Imma tell you about my good ol" Bhaumastra."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1727"/>
+    </children>
+  </item>
+  <item nodeId="node-1727">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"Y'see, to a layman, it's just a spear, but it can easily pierce and control the earth."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1728"/>
+    </children>
+  </item>
+  <item nodeId="node-1728">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"All I did was combine a long metal shaft with a very hard rock and a lotus flower."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1729"/>
+    </children>
+  </item>
+  <item nodeId="node-1729">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"The magic of Mother Bhumi comes from the lotus flowers, dontcha forget that!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1730"/>
+    </children>
+  </item>
+  <item nodeId="node-1730">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1731"/>
+    </children>
+  </item>
+  <item nodeId="node-1731">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1732"/>
+    </children>
+  </item>
+  <item nodeId="node-1732">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1733"/>
+    </children>
+  </item>
+  <item nodeId="node-1733">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1734"/>
+    </children>
+  </item>
+  <item nodeId="node-1734">
+    <command xml:space="preserve">talk to kastha</command>
+    <result xml:space="preserve">"Hello! So you're Kalinda! Pleased to meet you, I'm Kastha!"</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1735"/>
+    </children>
+  </item>
+  <item nodeId="node-1735">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"Well, the priest said some stuff about a past incident... I'm kinda scared, but I'll try and stay positive!"</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1736"/>
+    </children>
+  </item>
+  <item nodeId="node-1736">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"So, since he asked us to tell each other of our powers, I'll begin by introducing mine!"</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1737"/>
+    </children>
+  </item>
+  <item nodeId="node-1737">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"Inspired by Lord Vayu, I wield the great Vayvayastra mace! It's a magical mace that can create whirlwinds just by swinging it!"</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1738"/>
+    </children>
+  </item>
+  <item nodeId="node-1738">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"You see, it was forged by combining a heavy metal shaft, a round bronze head and snake scales. A true Naga hunter's weapon!"</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1739"/>
+    </children>
+  </item>
+  <item nodeId="node-1739">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"So, what about yours?"</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1740"/>
+    </children>
+  </item>
+  <item nodeId="node-1740">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">You explain to her about the weapon you've trained with and how you fight.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1741"/>
+    </children>
+  </item>
+  <item nodeId="node-1741">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"Wow, that sounds exciting! I do hope to see you slay several Asura."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1742"/>
+    </children>
+  </item>
+  <item nodeId="node-1742">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"But not more than me, haha!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1743"/>
+    </children>
+  </item>
+  <item nodeId="node-1743">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1744"/>
+    </children>
+  </item>
+  <item nodeId="node-1744">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1745"/>
+    </children>
+  </item>
+  <item nodeId="node-1745">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Temple of Indra&#x000A;You find yourself in a religious ceremony. Three of your fellow monks are gathered before a priest. There are four pedestals north of you, with the priest standing beside them.&#x000A;&#x000A;You can see a Priest of Indra, Mahit, Basdev and Kastha here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1746"/>
+    </children>
+  </item>
+  <item nodeId="node-1746">
+    <command xml:space="preserve">talk to basdev</command>
+    <result xml:space="preserve">"Greetings, friend. So you must be Kalinda, right?"</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1747"/>
+    </children>
+  </item>
+  <item nodeId="node-1747">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"Well, I'll have you explain your abilities first, as per the priest of Indra's instructions."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1748"/>
+    </children>
+  </item>
+  <item nodeId="node-1748">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">You explain to Basdev about the intricacies of your personal skills.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1749"/>
+    </children>
+  </item>
+  <item nodeId="node-1749">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"Ah, so that's how you fight."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1750"/>
+    </children>
+  </item>
+  <item nodeId="node-1750">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"Very well."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1751"/>
+    </children>
+  </item>
+  <item nodeId="node-1751">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"As was agreed, I shall explain my skills."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1752"/>
+    </children>
+  </item>
+  <item nodeId="node-1752">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"As a follower of Lord Agni, I fight with the Agneyastra, a bow that shoots flaming arrows."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1753"/>
+    </children>
+  </item>
+  <item nodeId="node-1753">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"The Agneyastra is made by combining a bow and a fire arrow."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1754"/>
+    </children>
+  </item>
+  <item nodeId="node-1754">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"The bow is made by combining a wooden stick and a string, while the fire arrow is made by combining a wooden stick with a holy charcoal."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1755"/>
+    </children>
+  </item>
+  <item nodeId="node-1755">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"I hope we can win many battles together, brother."&#x000A;&#x000A;The priest draws the attention of all four of you, announcing that the ceremony is about to begin.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1756"/>
+    </children>
+  </item>
+  <item nodeId="node-1756">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"Warriors! I believe there is nothing else we can do but procede with the ritual."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1757"/>
+    </children>
+  </item>
+  <item nodeId="node-1757">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"I shall ask each of you to stand on the pedestal of the god you've worshipped during your training."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1758"/>
+    </children>
+  </item>
+  <item nodeId="node-1758">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"Mahit, you're first! Come to the pedestal of Bhumi."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1759"/>
+    </children>
+  </item>
+  <item nodeId="node-1759">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">As Mahit stands on the pedestal, the priest starts chanting a hymn in an ancient language.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1760"/>
+    </children>
+  </item>
+  <item nodeId="node-1760">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">All of a sudden... Mahit turns into an Asura!!</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1761"/>
+    </children>
+  </item>
+  <item nodeId="node-1761">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"Ah yes, such beautiful power!"</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1762"/>
+    </children>
+  </item>
+  <item nodeId="node-1762">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">The priest is... pleased?</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1763"/>
+    </children>
+  </item>
+  <item nodeId="node-1763">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">What the hell is going on!?</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1764"/>
+    </children>
+  </item>
+  <item nodeId="node-1764">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"Basdev, you're next! Come quickly to the pedestal of Agni!"</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1765"/>
+    </children>
+  </item>
+  <item nodeId="node-1765">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Basdev stands on the pedestal and the same scene occurs once more.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1766"/>
+    </children>
+  </item>
+  <item nodeId="node-1766">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">You start to feel uneasy.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1767"/>
+    </children>
+  </item>
+  <item nodeId="node-1767">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"Kastha, it's your turn now. You are the first woman to reach this rank! Don't disappoint Lord Vayu!"</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1768"/>
+    </children>
+  </item>
+  <item nodeId="node-1768">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">As you feared, the moment Kastha stepped onto the pedestal, the priest chanted that hymn and she turned into a third Asura.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1769"/>
+    </children>
+  </item>
+  <item nodeId="node-1769">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">The three Asura look at you as the angry priest yells: "Get him!"</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1770"/>
+    </children>
+  </item>
+  <item nodeId="node-1770">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">You run south, seeking a way to escape.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1771"/>
+    </children>
+  </item>
+  <item nodeId="node-1771">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Temple Hallway&#x000A;After leaving the ceremonial room, you find yourself in a hallway. To the west and to the east, you see doors. To the south, there's a straight path.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1772"/>
+    </children>
+  </item>
+  <item nodeId="node-1772">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Temple Hallway&#x000A;You run south for a few moments until you reach a wall. The hallway bifurcates to each of your sides, but you see a dim light to your right.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1773"/>
+    </children>
+  </item>
+  <item nodeId="node-1773">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Temple Hallway&#x000A;You run towards the light and find out that there are a few fireflies coming from your left. There is another path straight ahead as well.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1774"/>
+    </children>
+  </item>
+  <item nodeId="node-1774">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Temple Hallway&#x000A;You run south, feeling the wind blow through your hair. You have no option but to keep running forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1775"/>
+    </children>
+  </item>
+  <item nodeId="node-1775">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Temple Hallway&#x000A;After running a few more meters, you find a wall with a window, from where the wind was blowing. To the right of the window, there's a path with old bookshelves. To the left of the window, there is a path with a few statues of the gods.&#x000A;&#x000A;You hear a loud sound coming from the ceremonial room. The Asura must have broken through the doors. Run, NOW!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1776"/>
+    </children>
+  </item>
+  <item nodeId="node-1776">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Temple Hallway&#x000A;You run through the hallway past several statues until you reach a wall. The hallway continues south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1777"/>
+    </children>
+  </item>
+  <item nodeId="node-1777">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Temple Hallway&#x000A;After running south, you see a rat come running from the path right in front of you. There's another path to the east. They're both dark and you can't see much.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1778"/>
+    </children>
+  </item>
+  <item nodeId="node-1778">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Temple Hallway&#x000A;You run east through the dark hallway. You have no option but to keep running forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1779"/>
+    </children>
+  </item>
+  <item nodeId="node-1779">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Temple Hallway&#x000A;You keep running east. Your legs start to feel tired, but you have no option but to keep running forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1780"/>
+    </children>
+  </item>
+  <item nodeId="node-1780">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Temple Hallway&#x000A;You keep running until you reach a fork. On your left you see a door slightly open with some light coming out of it. On the other side you see the continuation of the same corridor, but increasingly dark.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1781"/>
+    </children>
+  </item>
+  <item nodeId="node-1781">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Temple Hallway&#x000A;After crossing the door you are temporarily blinded by a beam of light, coming from a window in the upper corner of the room. As soon as your vision returns to normal, you notice a few tables and chairs around the place, nothing much. You keep moving towards the only door in the place.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1782"/>
+    </children>
+  </item>
+  <item nodeId="node-1782">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Temple Hallway&#x000A;You see yourself in the meeting of two corridors. You notice a light breeze coming from the west. On the opposite side of the breeze you hear some sounds in the distance, but you cannot identify them. In front of you there is a door a few steps away. You cannot tell whether it's locked or not.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1783"/>
+    </children>
+  </item>
+  <item nodeId="node-1783">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Temple Hallway&#x000A;With the last of your strenght, you face one final door to the south. There's not much else you can do now but to go through it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1784"/>
+    </children>
+  </item>
+  <item nodeId="node-1784">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Small Room&#x000A;You find yourself in a dead-end. There's not much in this room other than a small trap door near the wall. In fear of what is coming for you, you decide that opening it and jumping in is all you can do to try and survive.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1785"/>
+    </children>
+  </item>
+  <item nodeId="node-1785">
+    <command xml:space="preserve">open trap door</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1786"/>
+    </children>
+  </item>
+  <item nodeId="node-1786">
+    <command xml:space="preserve">open trapdoor</command>
+    <result xml:space="preserve">You open the trap door. There's no backing off now, you have no other option but to jump in.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1787"/>
+    </children>
+  </item>
+  <item nodeId="node-1787">
+    <command xml:space="preserve">jump in</command>
+    <result xml:space="preserve">You jump. You have no idea where this will lead you or how high is the fall, but you have no regrets.&#x000A;&#x000A;???&#x000A; After descending in that hole, you passed away in an unknown place. Little by little, you open your eyes, just to realize you can't actually see anything. You can't tell if you're blind or if it's just really dark. Thankfully, your other senses seems to be working just fine.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1788"/>
+    </children>
+  </item>
+  <item nodeId="node-1788">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You walk a little to the west, being careful to not bump on any walls or anything on the floor.&#x000A;&#x000A;???&#x000A;Darkness looms left and right. No sign of your pursuer, but you should be cautious anyway.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1789"/>
+    </children>
+  </item>
+  <item nodeId="node-1789">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You walk a little to the west, being careful to not bump on any walls or anything on the floor.&#x000A;&#x000A;???&#x000A;Darkness looms left and right. No sign of your pursuer, but you should be cautious anyway.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1790"/>
+    </children>
+  </item>
+  <item nodeId="node-1790">
+    <command xml:space="preserve">smell</command>
+    <result xml:space="preserve">The burnt smell is really suffocating here. It seems to be coming from the wall.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1791"/>
+    </children>
+  </item>
+  <item nodeId="node-1791">
+    <command xml:space="preserve">break wall</command>
+    <result xml:space="preserve">You attack the wall and it comes tumbling down. &#x000A;&#x000A;&#x000A;After breaking the wall, a burst of light comes from outside. On the edge of the hole caused by your punch, you can see some burn marks. It seems the wall iselft was the source of the smell. &#x000A;Thankfully, you can see the room now.&#x000A;&#x000A;Mausoleum&#x000A;You can see a Charcoal and a lotus flower here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1792"/>
+    </children>
+  </item>
+  <item nodeId="node-1792">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Charcoal: Taken.&#x000A;lotus flower: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1793"/>
+    </children>
+  </item>
+  <item nodeId="node-1793">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1794"/>
+    </children>
+  </item>
+  <item nodeId="node-1794">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1795"/>
+    </children>
+  </item>
+  <item nodeId="node-1795">
+    <command xml:space="preserve">sn</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1796"/>
+    </children>
+  </item>
+  <item nodeId="node-1796">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1797"/>
+    </children>
+  </item>
+  <item nodeId="node-1797">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;There is a big tomb next to the wall. You wonder what could be inside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1798"/>
+    </children>
+  </item>
+  <item nodeId="node-1798">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">There are none at all available!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1799"/>
+    </children>
+  </item>
+  <item nodeId="node-1799">
+    <command xml:space="preserve">open tomb</command>
+    <result xml:space="preserve">You open the tomb, revealing a short metal shaft, a long metal shaft and a bronze head.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1800"/>
+    </children>
+  </item>
+  <item nodeId="node-1800">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">short metal shaft: Taken.&#x000A;long metal shaft: Taken.&#x000A;bronze head: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1801"/>
+    </children>
+  </item>
+  <item nodeId="node-1801">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1802"/>
+    </children>
+  </item>
+  <item nodeId="node-1802">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1803"/>
+    </children>
+  </item>
+  <item nodeId="node-1803">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;You can see a snake scale, a hard stone and a String here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1804"/>
+    </children>
+  </item>
+  <item nodeId="node-1804">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">snake scale: Taken.&#x000A;hard stone: Taken.&#x000A;String: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1805"/>
+    </children>
+  </item>
+  <item nodeId="node-1805">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;You can see two Sticks here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1806"/>
+    </children>
+  </item>
+  <item nodeId="node-1806">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Stick: Taken.&#x000A;Stick: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1807"/>
+    </children>
+  </item>
+  <item nodeId="node-1807">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;Lord Varuna stands before you as if expecting something from you.&#x000A;&#x000A;You can see Lord Varuna here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1808"/>
+    </children>
+  </item>
+  <item nodeId="node-1808">
+    <command xml:space="preserve">talk to Varuna</command>
+    <result xml:space="preserve">"Hello, young warrior. It seems that those who seek your blood do not wish to allow you to receive my boon."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1809"/>
+    </children>
+  </item>
+  <item nodeId="node-1809">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"If you wish to earn my boon and slay those Asura, then I shall offer my power."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1810"/>
+    </children>
+  </item>
+  <item nodeId="node-1810">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">You feel something change inside you.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1811"/>
+    </children>
+  </item>
+  <item nodeId="node-1811">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"The power I have bestowed upon you is the power to COMBINE."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1812"/>
+    </children>
+  </item>
+  <item nodeId="node-1812">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"You can now combine an item with another and maybe even another one. The limit is that they need to always be in pairs or trios."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1813"/>
+    </children>
+  </item>
+  <item nodeId="node-1813">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"That, however, is not the full extent of my power."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1814"/>
+    </children>
+  </item>
+  <item nodeId="node-1814">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"If you wish to earn my boon, then you must use that power craft three weapons worthy of a god."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1815"/>
+    </children>
+  </item>
+  <item nodeId="node-1815">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"With those, you might have a chance against them."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1816"/>
+    </children>
+  </item>
+  <item nodeId="node-1816">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1817"/>
+    </children>
+  </item>
+  <item nodeId="node-1817">
+    <command xml:space="preserve">talk to varuna</command>
+    <result xml:space="preserve">"As I said, you must COMBINE an item WITH another one AND maybe even another one."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1818"/>
+    </children>
+  </item>
+  <item nodeId="node-1818">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"Until you've created three weapons, I'm afraid I cannot help you."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1819"/>
+    </children>
+  </item>
+  <item nodeId="node-1819">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
@@ -12408,16 +13389,23 @@
   </item>
   <item nodeId="node-1429">
     <command xml:space="preserve">x tomb</command>
-    <result xml:space="preserve">In the tomb is 3 Metal Heads.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">In the tomb are a small metal shaft, a long metal shaft and a bronze head.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-1430"/>
+      <child nodeId="node-1526"/>
     </children>
   </item>
   <item nodeId="node-1430">
     <command xml:space="preserve">take one metal head</command>
     <result xml:space="preserve">I only understood you as far as wanting to take 3 Metal Heads.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1526">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">small metal shaft: Taken.&#x000A;long metal shaft: Taken.&#x000A;bronze head: Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
@@ -12726,6 +13714,2601 @@
   <item nodeId="node-1466">
     <command xml:space="preserve">attack mahit with water sword</command>
     <result xml:space="preserve">You attack with Water Sword, killing Asura Mahit!&#x000A;&#x000A;Asura Basdev attacks you with the Agneyastra, causing 2 points of damage!&#x000A;&#x000A;Asura Kastha attacks you with the Vayvayastra, causing 1 point of damage!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1467">
+    <command xml:space="preserve">use metal shaft on metal shaft</command>
+    <result xml:space="preserve">You can't use the metal shaft on itself.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-1468"/>
+    </children>
+  </item>
+  <item nodeId="node-1468">
+    <command xml:space="preserve">use stick on string</command>
+    <result xml:space="preserve">That doesn't seem to be something you can lock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1469"/>
+    </children>
+  </item>
+  <item nodeId="node-1469">
+    <command xml:space="preserve">use stick on charcoal</command>
+    <result xml:space="preserve">That doesn't seem to be something you can lock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1470"/>
+    </children>
+  </item>
+  <item nodeId="node-1470">
+    <command xml:space="preserve">use charcoal</command>
+    <result xml:space="preserve">What do you want to use the Charcoal on?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1471"/>
+    </children>
+  </item>
+  <item nodeId="node-1471">
+    <command xml:space="preserve">string</command>
+    <result xml:space="preserve">That doesn't seem to be something you can lock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1472"/>
+    </children>
+  </item>
+  <item nodeId="node-1472">
+    <command xml:space="preserve">x charcoal</command>
+    <result xml:space="preserve">A small piece of burnt wood. It has a sacred meaning regarding Lord Agni.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1473"/>
+    </children>
+  </item>
+  <item nodeId="node-1473">
+    <command xml:space="preserve">use bronze head on bow</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1474"/>
+    </children>
+  </item>
+  <item nodeId="node-1474">
+    <command xml:space="preserve">use stick on string</command>
+    <result xml:space="preserve">That doesn't seem to be something you can lock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1475"/>
+    </children>
+  </item>
+  <item nodeId="node-1475">
+    <command xml:space="preserve">use stick on charcoa</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1476"/>
+    </children>
+  </item>
+  <item nodeId="node-1476">
+    <command xml:space="preserve">use stick on charcoal</command>
+    <result xml:space="preserve">That doesn't seem to be something you can lock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1477">
+    <command xml:space="preserve">use stick on charcoal</command>
+    <result xml:space="preserve">You use the Stick on the Charcoal and get a Fire arrow.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-1497"/>
+    </children>
+  </item>
+  <item nodeId="node-1497">
+    <command xml:space="preserve">use stick on string</command>
+    <result xml:space="preserve">You use the Stick on the String and get a Bow.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1498"/>
+    </children>
+  </item>
+  <item nodeId="node-1498">
+    <command xml:space="preserve">use fire arrow on bow</command>
+    <result xml:space="preserve">You use the Fire arrow on the Bow and get a Agneyastra.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1499"/>
+    </children>
+  </item>
+  <item nodeId="node-1499">
+    <command xml:space="preserve">use metal shaft on bronze head</command>
+    <result xml:space="preserve">You use the metal shaft on the bronze head and get a Mace.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1500"/>
+    </children>
+  </item>
+  <item nodeId="node-1500">
+    <command xml:space="preserve">use mace on lotus</command>
+    <result xml:space="preserve">The Mace and one lotus  just don't seem to go together.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1501"/>
+    </children>
+  </item>
+  <item nodeId="node-1501">
+    <command xml:space="preserve">use mace on scale</command>
+    <result xml:space="preserve">The Mace and one scale  just don't seem to go together.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1502"/>
+    </children>
+  </item>
+  <item nodeId="node-1502">
+    <command xml:space="preserve">use mace on snake scale</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1503"/>
+    </children>
+  </item>
+  <item nodeId="node-1503">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a Mace&#x000A;  an Agneyastra&#x000A;  one scale&#x000A;  one lotus&#x000A;  two metal shafts&#x000A;  a hard stone&#x000A;  Water Sword&#x000A;  Fire Sword&#x000A;  Wind Sword&#x000A;  Earth Sword&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1478">
+    <command xml:space="preserve">use Wolfsbane on Alcohol</command>
+    <result xml:space="preserve">You use the Wolfsbane on the Pure Alcohol and get a Werewolf Tincture.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1479"/>
+    </children>
+  </item>
+  <item nodeId="node-1479">
+    <command xml:space="preserve">x werewolf tincture</command>
+    <result xml:space="preserve">You see nothing special about the Werewolf Tincture.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1480">
+    <command xml:space="preserve">use wolfsbane on pure alcohol</command>
+    <result xml:space="preserve">That doesn't seem to be something you can lock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1481">
+    <command xml:space="preserve">use stick on string</command>
+    <result xml:space="preserve">You use the Stick on the String and get a Bow.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1482"/>
+    </children>
+  </item>
+  <item nodeId="node-1482">
+    <command xml:space="preserve">use stick on charcoal</command>
+    <result xml:space="preserve">You use the Stick on the Charcoal and get a Fire arrow.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1483"/>
+      <child nodeId="node-1504"/>
+    </children>
+  </item>
+  <item nodeId="node-1483">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a Fire arrow&#x000A;  a Bow&#x000A;  one scale&#x000A;  one lotus&#x000A;  three metal shafts&#x000A;  a bronze head&#x000A;  a hard stone&#x000A;  Water Sword&#x000A;  Fire Sword&#x000A;  Wind Sword&#x000A;  Earth Sword&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1504">
+    <command xml:space="preserve">use fire arrow on bow</command>
+    <result xml:space="preserve">You use the Fire arrow on the Bow and get a Agneyastra.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1505"/>
+    </children>
+  </item>
+  <item nodeId="node-1505">
+    <command xml:space="preserve">use bronze head on metal shaft</command>
+    <result xml:space="preserve">You use the bronze head on the metal shaft and get a Mace.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1506"/>
+    </children>
+  </item>
+  <item nodeId="node-1506">
+    <command xml:space="preserve">use mace on scale</command>
+    <result xml:space="preserve">You use the Mace on the snake scale and get a Vayvayastra.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1484">
+    <command xml:space="preserve">use string on charcoal</command>
+    <result xml:space="preserve">The String and the Charcoal  just don't seem to go together.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1485"/>
+    </children>
+  </item>
+  <item nodeId="node-1485">
+    <command xml:space="preserve">use stick on string</command>
+    <result xml:space="preserve">You use the Stick on the String and get a Bow.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1486"/>
+    </children>
+  </item>
+  <item nodeId="node-1486">
+    <command xml:space="preserve">use stick on charcoal</command>
+    <result xml:space="preserve">You use the Stick on the Charcoal and get a Fire arrow.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1487"/>
+    </children>
+  </item>
+  <item nodeId="node-1487">
+    <command xml:space="preserve">use fire arrow on bow</command>
+    <result xml:space="preserve">You use the Fire arrow on the Bow and get a Agneyastra.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1488"/>
+    </children>
+  </item>
+  <item nodeId="node-1488">
+    <command xml:space="preserve">throw agne</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1489"/>
+    </children>
+  </item>
+  <item nodeId="node-1489">
+    <command xml:space="preserve">take agne</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1490"/>
+    </children>
+  </item>
+  <item nodeId="node-1490">
+    <command xml:space="preserve">drop</command>
+    <result xml:space="preserve">What do you want to drop?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1491"/>
+    </children>
+  </item>
+  <item nodeId="node-1491">
+    <command xml:space="preserve">nothing</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1492">
+    <command xml:space="preserve">drop stick</command>
+    <result xml:space="preserve">Too valuable&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1493"/>
+    </children>
+  </item>
+  <item nodeId="node-1493">
+    <command xml:space="preserve">invertory</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1494"/>
+    </children>
+  </item>
+  <item nodeId="node-1494">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  one scale&#x000A;  one lotus&#x000A;  three metal shafts&#x000A;  a bronze head&#x000A;  a hard stone&#x000A;  two Sticks&#x000A;  a String&#x000A;  a Charcoal&#x000A;  Water Sword&#x000A;  Fire Sword&#x000A;  Wind Sword&#x000A;  Earth Sword&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1495"/>
+    </children>
+  </item>
+  <item nodeId="node-1495">
+    <command xml:space="preserve">drop sword</command>
+    <result xml:space="preserve">Which do you mean, Water Sword, Fire Sword, Wind Sword or Earth Sword?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1496"/>
+    </children>
+  </item>
+  <item nodeId="node-1496">
+    <command xml:space="preserve">drop water sword</command>
+    <result xml:space="preserve">Too valuable&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1507">
+    <command xml:space="preserve">use tone on long metal shaft</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1508"/>
+    </children>
+  </item>
+  <item nodeId="node-1508">
+    <command xml:space="preserve">use stone on long metal shaft</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1509">
+    <command xml:space="preserve">use stone on long metal shaft</command>
+    <result xml:space="preserve">You use the hard stone on the long metal shaft and get a Spear.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1510"/>
+    </children>
+  </item>
+  <item nodeId="node-1510">
+    <command xml:space="preserve">use spear on lotus</command>
+    <result xml:space="preserve">The Spear and one lotus  just don't seem to go together.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1511">
+    <command xml:space="preserve">use spear on lotus</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1512"/>
+    </children>
+  </item>
+  <item nodeId="node-1512">
+    <command xml:space="preserve">use stone on metal shaft</command>
+    <result xml:space="preserve">Which do you mean, the metal shaft or the long metal shaft?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1513"/>
+    </children>
+  </item>
+  <item nodeId="node-1513">
+    <command xml:space="preserve">use stone on long metal shaft</command>
+    <result xml:space="preserve">You use the hard stone on the long metal shaft and get a Spear.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1514"/>
+    </children>
+  </item>
+  <item nodeId="node-1514">
+    <command xml:space="preserve">use spear on lotus</command>
+    <result xml:space="preserve">You use the Spear on the lotus flower and get a Bhau.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1515">
+    <command xml:space="preserve">use metal shaft on bronze head</command>
+    <result xml:space="preserve">Which do you mean, the small metal shaft or the long metal shaft?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-1516"/>
+      <child nodeId="node-1517"/>
+    </children>
+  </item>
+  <item nodeId="node-1516">
+    <command xml:space="preserve">metal shaft</command>
+    <result xml:space="preserve">Which do you mean, the metal shaft or the long metal shaft?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1517">
+    <command xml:space="preserve">small</command>
+    <result xml:space="preserve">You use the small metal shaft on the bronze head and get a Mace.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1518">
+    <command xml:space="preserve">x bronze head</command>
+    <result xml:space="preserve">A heavy sphere made of bronze. Looks like it could be used to make a mace or flail.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1519"/>
+    </children>
+  </item>
+  <item nodeId="node-1519">
+    <command xml:space="preserve">use bronze head on small metal shaft</command>
+    <result xml:space="preserve">You use the bronze head on the small metal shaft and get a Mace.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1520"/>
+    </children>
+  </item>
+  <item nodeId="node-1520">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Temple of Indra&#x000A;You find yourself in a religious ceremony. Three of your fellow monks are gathered before a priest. There are four pedestals north of you, with the priest standing beside them.&#x000A;&#x000A;You can see a Priest of Indra, Mahit, Basdev and Kastha here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1521"/>
+    </children>
+  </item>
+  <item nodeId="node-1521">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a Mace&#x000A;  a long metal shaft&#x000A;  a snake scale&#x000A;  a hard stone&#x000A;  a lotus flower&#x000A;  two Sticks&#x000A;  a String&#x000A;  a Charcoal&#x000A;  Water Sword&#x000A;  Fire Sword&#x000A;  Wind Sword&#x000A;  Earth Sword&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1522">
+    <command xml:space="preserve">use small metal shaft on bronze head</command>
+    <result xml:space="preserve">You use the small metal shaft on the bronze head and get a Mace.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1523"/>
+    </children>
+  </item>
+  <item nodeId="node-1523">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a Mace&#x000A;  a long metal shaft&#x000A;  a snake scale&#x000A;  a hard stone&#x000A;  a lotus flower&#x000A;  two Sticks&#x000A;  a String&#x000A;  a Charcoal&#x000A;  Water Sword&#x000A;  Fire Sword&#x000A;  Wind Sword&#x000A;  Earth Sword&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1524">
+    <command xml:space="preserve">purloin water sword</command>
+    <result xml:space="preserve">[Purloined.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1525"/>
+    </children>
+  </item>
+  <item nodeId="node-1525">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Water Sword&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1527">
+    <command xml:space="preserve">go near lne</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1528"/>
+    </children>
+  </item>
+  <item nodeId="node-1528">
+    <command xml:space="preserve">gonear lne</command>
+    <result xml:space="preserve">Mausoleum&#x000A;You can see a snake scale and a hard stone here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1529"/>
+    </children>
+  </item>
+  <item nodeId="node-1529">
+    <command xml:space="preserve">take snake scale</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1530"/>
+    </children>
+  </item>
+  <item nodeId="node-1530">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Mausoleum&#x000A;You can see a hard stone here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1531"/>
+    </children>
+  </item>
+  <item nodeId="node-1531">
+    <command xml:space="preserve">take hard stone</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1532"/>
+    </children>
+  </item>
+  <item nodeId="node-1532">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1533">
+    <command xml:space="preserve">gonear lne</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;You can see a snake scale and a hard stone here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-1534"/>
+    </children>
+  </item>
+  <item nodeId="node-1534">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1535"/>
+    </children>
+  </item>
+  <item nodeId="node-1535">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;There is a big tomb next to the wall. You wonder what could be inside.&#x000A;&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1536"/>
+    </children>
+  </item>
+  <item nodeId="node-1536">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1537"/>
+    </children>
+  </item>
+  <item nodeId="node-1537">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1538"/>
+    </children>
+  </item>
+  <item nodeId="node-1538">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1539">
+    <command xml:space="preserve">gonear lse</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1540"/>
+      <child nodeId="node-1670"/>
+      <child nodeId="node-1686"/>
+    </children>
+  </item>
+  <item nodeId="node-1540">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1541"/>
+    </children>
+  </item>
+  <item nodeId="node-1541">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1542"/>
+    </children>
+  </item>
+  <item nodeId="node-1542">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1543"/>
+    </children>
+  </item>
+  <item nodeId="node-1543">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1544"/>
+    </children>
+  </item>
+  <item nodeId="node-1544">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1545"/>
+    </children>
+  </item>
+  <item nodeId="node-1545">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1546"/>
+    </children>
+  </item>
+  <item nodeId="node-1546">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;There is a big tomb next to the wall. You wonder what could be inside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1547"/>
+    </children>
+  </item>
+  <item nodeId="node-1547">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1548"/>
+    </children>
+  </item>
+  <item nodeId="node-1548">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1549"/>
+    </children>
+  </item>
+  <item nodeId="node-1549">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1550"/>
+    </children>
+  </item>
+  <item nodeId="node-1550">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1551"/>
+    </children>
+  </item>
+  <item nodeId="node-1551">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1552"/>
+    </children>
+  </item>
+  <item nodeId="node-1552">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1553"/>
+    </children>
+  </item>
+  <item nodeId="node-1553">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1554"/>
+    </children>
+  </item>
+  <item nodeId="node-1554">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1555"/>
+    </children>
+  </item>
+  <item nodeId="node-1555">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1556"/>
+    </children>
+  </item>
+  <item nodeId="node-1556">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1557"/>
+    </children>
+  </item>
+  <item nodeId="node-1557">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1670">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;You can see two Sticks here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1671"/>
+    </children>
+  </item>
+  <item nodeId="node-1671">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Stick: Taken.&#x000A;Stick: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1672"/>
+    </children>
+  </item>
+  <item nodeId="node-1672">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1673"/>
+    </children>
+  </item>
+  <item nodeId="node-1673">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1674"/>
+    </children>
+  </item>
+  <item nodeId="node-1674">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1675"/>
+    </children>
+  </item>
+  <item nodeId="node-1675">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;You can see a snake scale and a hard stone here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1676"/>
+    </children>
+  </item>
+  <item nodeId="node-1676">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">snake scale: Taken.&#x000A;hard stone: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1677"/>
+    </children>
+  </item>
+  <item nodeId="node-1677">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1678"/>
+    </children>
+  </item>
+  <item nodeId="node-1678">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;There is a big tomb next to the wall. You wonder what could be inside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1679"/>
+    </children>
+  </item>
+  <item nodeId="node-1679">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">short metal shaft: Taken.&#x000A;long metal shaft: Taken.&#x000A;bronze head: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1680"/>
+    </children>
+  </item>
+  <item nodeId="node-1680">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1681"/>
+    </children>
+  </item>
+  <item nodeId="node-1681">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;You can see a Charcoal and a lotus flower here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1682"/>
+    </children>
+  </item>
+  <item nodeId="node-1682">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Charcoal: Taken.&#x000A;lotus flower: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1683"/>
+    </children>
+  </item>
+  <item nodeId="node-1683">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a lotus flower&#x000A;  a Charcoal&#x000A;  a bronze head&#x000A;  a long metal shaft&#x000A;  a short metal shaft&#x000A;  a hard stone&#x000A;  a snake scale&#x000A;  two Sticks&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1684"/>
+    </children>
+  </item>
+  <item nodeId="node-1684">
+    <command xml:space="preserve">use stick on charcoal</command>
+    <result xml:space="preserve">You use the Stick on the Charcoal and get a Fire arrow.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1685"/>
+    </children>
+  </item>
+  <item nodeId="node-1685">
+    <command xml:space="preserve">use stick on string</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1686">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1687"/>
+    </children>
+  </item>
+  <item nodeId="node-1687">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1688"/>
+    </children>
+  </item>
+  <item nodeId="node-1688">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;You can see two Sticks here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1689"/>
+    </children>
+  </item>
+  <item nodeId="node-1689">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Stick: Taken.&#x000A;Stick: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1690"/>
+    </children>
+  </item>
+  <item nodeId="node-1690">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;You can see a snake scale, a hard stone and a String here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1691"/>
+    </children>
+  </item>
+  <item nodeId="node-1691">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">snake scale: Taken.&#x000A;hard stone: Taken.&#x000A;String: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1692"/>
+    </children>
+  </item>
+  <item nodeId="node-1692">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1693"/>
+    </children>
+  </item>
+  <item nodeId="node-1693">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;There is a big tomb next to the wall. You wonder what could be inside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1694"/>
+    </children>
+  </item>
+  <item nodeId="node-1694">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">short metal shaft: Taken.&#x000A;long metal shaft: Taken.&#x000A;bronze head: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1695"/>
+    </children>
+  </item>
+  <item nodeId="node-1695">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1696"/>
+    </children>
+  </item>
+  <item nodeId="node-1696">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">There are none at all available!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1697"/>
+    </children>
+  </item>
+  <item nodeId="node-1697">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;You can see a Charcoal and a lotus flower here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1698"/>
+    </children>
+  </item>
+  <item nodeId="node-1698">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Charcoal: Taken.&#x000A;lotus flower: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1699"/>
+    </children>
+  </item>
+  <item nodeId="node-1699">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1700"/>
+    </children>
+  </item>
+  <item nodeId="node-1700">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1701"/>
+    </children>
+  </item>
+  <item nodeId="node-1701">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a lotus flower&#x000A;  a Charcoal&#x000A;  a bronze head&#x000A;  a long metal shaft&#x000A;  a short metal shaft&#x000A;  a String&#x000A;  a hard stone&#x000A;  a snake scale&#x000A;  two Sticks&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1702"/>
+    </children>
+  </item>
+  <item nodeId="node-1702">
+    <command xml:space="preserve">use stick on string</command>
+    <result xml:space="preserve">You use the Stick on the String and get a Bow.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1703"/>
+    </children>
+  </item>
+  <item nodeId="node-1703">
+    <command xml:space="preserve">use stick on charcoal</command>
+    <result xml:space="preserve">You use the Stick on the Charcoal and get a Fire arrow.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1704"/>
+    </children>
+  </item>
+  <item nodeId="node-1704">
+    <command xml:space="preserve">use bow on arrow</command>
+    <result xml:space="preserve">You use the Bow on the Fire arrow and get a Agneyastra.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1705"/>
+    </children>
+  </item>
+  <item nodeId="node-1705">
+    <command xml:space="preserve">use bronze head on shaft</command>
+    <result xml:space="preserve">Which do you mean, the long metal shaft or the short metal shaft?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1706"/>
+    </children>
+  </item>
+  <item nodeId="node-1706">
+    <command xml:space="preserve">short</command>
+    <result xml:space="preserve">You use the bronze head on the short metal shaft and get a Mace.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1707"/>
+    </children>
+  </item>
+  <item nodeId="node-1707">
+    <command xml:space="preserve">use mace on flower</command>
+    <result xml:space="preserve">The Mace and the lotus flower  just don't seem to go together.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1708"/>
+    </children>
+  </item>
+  <item nodeId="node-1708">
+    <command xml:space="preserve">use mace on scale</command>
+    <result xml:space="preserve">You use the Mace on the snake scale and get a Vayvayastra.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1709"/>
+    </children>
+  </item>
+  <item nodeId="node-1709">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a Vayvayastra&#x000A;  an Agneyastra&#x000A;  a lotus flower&#x000A;  a long metal shaft&#x000A;  a hard stone&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1710"/>
+    </children>
+  </item>
+  <item nodeId="node-1710">
+    <command xml:space="preserve">use shaft on stone</command>
+    <result xml:space="preserve">You use the long metal shaft on the hard stone and get a Spear.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1711"/>
+    </children>
+  </item>
+  <item nodeId="node-1711">
+    <command xml:space="preserve">use spear on flower</command>
+    <result xml:space="preserve">You use the Spear on the lotus flower and get a Bhau.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1712"/>
+    </children>
+  </item>
+  <item nodeId="node-1712">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a Bhau&#x000A;  a Vayvayastra&#x000A;  an Agneyastra&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1558">
+    <command xml:space="preserve">gonear ls</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1559"/>
+      <child nodeId="node-1566"/>
+      <child nodeId="node-1596"/>
+    </children>
+  </item>
+  <item nodeId="node-1559">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1560"/>
+    </children>
+  </item>
+  <item nodeId="node-1560">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1561"/>
+    </children>
+  </item>
+  <item nodeId="node-1561">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1562"/>
+    </children>
+  </item>
+  <item nodeId="node-1562">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;There is a big tomb next to the wall. You wonder what could be inside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1563"/>
+    </children>
+  </item>
+  <item nodeId="node-1563">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1564"/>
+    </children>
+  </item>
+  <item nodeId="node-1564">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;You can see a snake scale and a hard stone here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1565"/>
+    </children>
+  </item>
+  <item nodeId="node-1565">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1566">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1567"/>
+      <child nodeId="node-1632"/>
+    </children>
+  </item>
+  <item nodeId="node-1567">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1568"/>
+    </children>
+  </item>
+  <item nodeId="node-1568">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1569"/>
+      <child nodeId="node-1605"/>
+      <child nodeId="node-1628"/>
+    </children>
+  </item>
+  <item nodeId="node-1569">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1570"/>
+    </children>
+  </item>
+  <item nodeId="node-1570">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1571"/>
+    </children>
+  </item>
+  <item nodeId="node-1571">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1572"/>
+    </children>
+  </item>
+  <item nodeId="node-1572">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1573"/>
+    </children>
+  </item>
+  <item nodeId="node-1573">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1574"/>
+    </children>
+  </item>
+  <item nodeId="node-1574">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1575"/>
+    </children>
+  </item>
+  <item nodeId="node-1575">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1576"/>
+    </children>
+  </item>
+  <item nodeId="node-1576">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1577"/>
+    </children>
+  </item>
+  <item nodeId="node-1577">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1578"/>
+    </children>
+  </item>
+  <item nodeId="node-1578">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1579"/>
+    </children>
+  </item>
+  <item nodeId="node-1579">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;Lord Varuna stands before you as if expecting something from you.&#x000A;&#x000A;vai otmar no cuYou can see Lord Varuna here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1580"/>
+    </children>
+  </item>
+  <item nodeId="node-1580">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1581"/>
+    </children>
+  </item>
+  <item nodeId="node-1581">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1582"/>
+    </children>
+  </item>
+  <item nodeId="node-1582">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1583"/>
+    </children>
+  </item>
+  <item nodeId="node-1583">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1584"/>
+    </children>
+  </item>
+  <item nodeId="node-1584">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1585"/>
+    </children>
+  </item>
+  <item nodeId="node-1585">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1586"/>
+    </children>
+  </item>
+  <item nodeId="node-1586">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1587"/>
+    </children>
+  </item>
+  <item nodeId="node-1587">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1588"/>
+    </children>
+  </item>
+  <item nodeId="node-1588">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1589"/>
+    </children>
+  </item>
+  <item nodeId="node-1589">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1590"/>
+    </children>
+  </item>
+  <item nodeId="node-1590">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1591"/>
+    </children>
+  </item>
+  <item nodeId="node-1591">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1592"/>
+    </children>
+  </item>
+  <item nodeId="node-1592">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1593"/>
+    </children>
+  </item>
+  <item nodeId="node-1593">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1594"/>
+    </children>
+  </item>
+  <item nodeId="node-1594">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1595"/>
+    </children>
+  </item>
+  <item nodeId="node-1595">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;vai otmar no cuYou can see a snake scale and a hard stone here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1605">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1606"/>
+    </children>
+  </item>
+  <item nodeId="node-1606">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1607"/>
+    </children>
+  </item>
+  <item nodeId="node-1607">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;There is a big tomb next to the wall. You wonder what could be inside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1608"/>
+    </children>
+  </item>
+  <item nodeId="node-1608">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1609"/>
+    </children>
+  </item>
+  <item nodeId="node-1609">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1610"/>
+    </children>
+  </item>
+  <item nodeId="node-1610">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1611"/>
+    </children>
+  </item>
+  <item nodeId="node-1611">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1612"/>
+    </children>
+  </item>
+  <item nodeId="node-1612">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1613"/>
+    </children>
+  </item>
+  <item nodeId="node-1613">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1614"/>
+    </children>
+  </item>
+  <item nodeId="node-1614">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1615"/>
+    </children>
+  </item>
+  <item nodeId="node-1615">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1616"/>
+    </children>
+  </item>
+  <item nodeId="node-1616">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1617"/>
+    </children>
+  </item>
+  <item nodeId="node-1617">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1618"/>
+    </children>
+  </item>
+  <item nodeId="node-1618">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1619"/>
+    </children>
+  </item>
+  <item nodeId="node-1619">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1620"/>
+    </children>
+  </item>
+  <item nodeId="node-1620">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1621"/>
+    </children>
+  </item>
+  <item nodeId="node-1621">
+    <command xml:space="preserve">a</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1622"/>
+    </children>
+  </item>
+  <item nodeId="node-1622">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1623"/>
+    </children>
+  </item>
+  <item nodeId="node-1623">
+    <command xml:space="preserve">sd</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1624"/>
+    </children>
+  </item>
+  <item nodeId="node-1624">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1625"/>
+    </children>
+  </item>
+  <item nodeId="node-1625">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1626"/>
+    </children>
+  </item>
+  <item nodeId="node-1626">
+    <command xml:space="preserve">as</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1627"/>
+    </children>
+  </item>
+  <item nodeId="node-1627">
+    <command xml:space="preserve">dsa</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1628">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1629"/>
+    </children>
+  </item>
+  <item nodeId="node-1629">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;There is a big tomb next to the wall. You wonder what could be inside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1630"/>
+    </children>
+  </item>
+  <item nodeId="node-1630">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1631"/>
+    </children>
+  </item>
+  <item nodeId="node-1631">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;n aguento maisYou can see a snake scale and a hard stone here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1632">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;Lord Varuna stands before you as if expecting something from you.&#x000A;&#x000A;aaaYou can see Lord Varuna here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1633"/>
+    </children>
+  </item>
+  <item nodeId="node-1633">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1634"/>
+    </children>
+  </item>
+  <item nodeId="node-1634">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;aaaYou can see a snake scale and a hard stone here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1596">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;Lord Varuna stands before you as if expecting something from you.&#x000A;&#x000A;n aguento maisYou can see Lord Varuna here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-1597"/>
+    </children>
+  </item>
+  <item nodeId="node-1597">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1598"/>
+    </children>
+  </item>
+  <item nodeId="node-1598">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;You can see a snake scale and a hard stone here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1599"/>
+    </children>
+  </item>
+  <item nodeId="node-1599">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1600"/>
+    </children>
+  </item>
+  <item nodeId="node-1600">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;There is a big tomb next to the wall. You wonder what could be inside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1601"/>
+    </children>
+  </item>
+  <item nodeId="node-1601">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1602"/>
+    </children>
+  </item>
+  <item nodeId="node-1602">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1603"/>
+    </children>
+  </item>
+  <item nodeId="node-1603">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1604"/>
+    </children>
+  </item>
+  <item nodeId="node-1604">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1635">
+    <command xml:space="preserve">gonear lce</command>
+    <result xml:space="preserve">*** Run-time problem P61: Attempt to move the player off-stage.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1636"/>
+    </children>
+  </item>
+  <item nodeId="node-1636">
+    <command xml:space="preserve">gonear lc</command>
+    <result xml:space="preserve">Mausoleum&#x000A;Lord Varuna stands before you as if expecting something from you.&#x000A;&#x000A;You can see Lord Varuna here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1637"/>
+    </children>
+  </item>
+  <item nodeId="node-1637">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">There are none at all available!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1638"/>
+    </children>
+  </item>
+  <item nodeId="node-1638">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1639"/>
+    </children>
+  </item>
+  <item nodeId="node-1639">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1640"/>
+    </children>
+  </item>
+  <item nodeId="node-1640">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1641"/>
+    </children>
+  </item>
+  <item nodeId="node-1641">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;There is a big tomb next to the wall. You wonder what could be inside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1642"/>
+    </children>
+  </item>
+  <item nodeId="node-1642">
+    <command xml:space="preserve">open tomb</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1643"/>
+    </children>
+  </item>
+  <item nodeId="node-1643">
+    <command xml:space="preserve">x tomb</command>
+    <result xml:space="preserve">In the tomb are a short metal shaft, a long metal shaft and a bronze head.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1644"/>
+    </children>
+  </item>
+  <item nodeId="node-1644">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">short metal shaft: Taken.&#x000A;long metal shaft: Taken.&#x000A;bronze head: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1645"/>
+    </children>
+  </item>
+  <item nodeId="node-1645">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1646"/>
+    </children>
+  </item>
+  <item nodeId="node-1646">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;You can see a Charcoal and a lotus flower here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1647"/>
+    </children>
+  </item>
+  <item nodeId="node-1647">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Charcoal: Taken.&#x000A;lotus flower: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1648"/>
+    </children>
+  </item>
+  <item nodeId="node-1648">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1649"/>
+    </children>
+  </item>
+  <item nodeId="node-1649">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1650"/>
+    </children>
+  </item>
+  <item nodeId="node-1650">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1651"/>
+    </children>
+  </item>
+  <item nodeId="node-1651">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1652"/>
+    </children>
+  </item>
+  <item nodeId="node-1652">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1653"/>
+    </children>
+  </item>
+  <item nodeId="node-1653">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1654"/>
+    </children>
+  </item>
+  <item nodeId="node-1654">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1655"/>
+    </children>
+  </item>
+  <item nodeId="node-1655">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1656"/>
+    </children>
+  </item>
+  <item nodeId="node-1656">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1657"/>
+    </children>
+  </item>
+  <item nodeId="node-1657">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1658"/>
+    </children>
+  </item>
+  <item nodeId="node-1658">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;There is a big tomb next to the wall. You wonder what could be inside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1659"/>
+    </children>
+  </item>
+  <item nodeId="node-1659">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1660"/>
+    </children>
+  </item>
+  <item nodeId="node-1660">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1661"/>
+    </children>
+  </item>
+  <item nodeId="node-1661">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;You can see a snake scale and a hard stone here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1662"/>
+    </children>
+  </item>
+  <item nodeId="node-1662">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">snake scale: Taken.&#x000A;hard stone: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1663"/>
+    </children>
+  </item>
+  <item nodeId="node-1663">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a hard stone&#x000A;  a snake scale&#x000A;  a lotus flower&#x000A;  a Charcoal&#x000A;  a bronze head&#x000A;  a long metal shaft&#x000A;  a short metal shaft&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1664"/>
+    </children>
+  </item>
+  <item nodeId="node-1664">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1665"/>
+    </children>
+  </item>
+  <item nodeId="node-1665">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1666"/>
+    </children>
+  </item>
+  <item nodeId="node-1666">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1667"/>
+    </children>
+  </item>
+  <item nodeId="node-1667">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1668"/>
+    </children>
+  </item>
+  <item nodeId="node-1668">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1669"/>
+    </children>
+  </item>
+  <item nodeId="node-1669">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-1820">
+    <command xml:space="preserve">gonear lc</command>
+    <result xml:space="preserve">Mausoleum&#x000A;Lord Varuna stands before you as if expecting something from you.&#x000A;&#x000A;You can see Lord Varuna here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1821"/>
+    </children>
+  </item>
+  <item nodeId="node-1821">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1822"/>
+    </children>
+  </item>
+  <item nodeId="node-1822">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;There is a big tomb next to the wall. You wonder what could be inside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1823"/>
+    </children>
+  </item>
+  <item nodeId="node-1823">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">short metal shaft: Taken.&#x000A;long metal shaft: Taken.&#x000A;bronze head: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1824"/>
+    </children>
+  </item>
+  <item nodeId="node-1824">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1825"/>
+    </children>
+  </item>
+  <item nodeId="node-1825">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1826"/>
+    </children>
+  </item>
+  <item nodeId="node-1826">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1827"/>
+    </children>
+  </item>
+  <item nodeId="node-1827">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;You can see a snake scale, a hard stone and a String here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1828"/>
+    </children>
+  </item>
+  <item nodeId="node-1828">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">snake scale: Taken.&#x000A;hard stone: Taken.&#x000A;String: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1829"/>
+    </children>
+  </item>
+  <item nodeId="node-1829">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;You can see two Sticks here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1830"/>
+    </children>
+  </item>
+  <item nodeId="node-1830">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1831"/>
+    </children>
+  </item>
+  <item nodeId="node-1831">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;You can see two Sticks here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1832"/>
+    </children>
+  </item>
+  <item nodeId="node-1832">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Stick: Taken.&#x000A;Stick: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1833"/>
+    </children>
+  </item>
+  <item nodeId="node-1833">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1834"/>
+    </children>
+  </item>
+  <item nodeId="node-1834">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1835"/>
+    </children>
+  </item>
+  <item nodeId="node-1835">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1836"/>
+    </children>
+  </item>
+  <item nodeId="node-1836">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Mausoleum&#x000A;You can see a Charcoal and a lotus flower here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1837"/>
+    </children>
+  </item>
+  <item nodeId="node-1837">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Charcoal: Taken.&#x000A;lotus flower: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1838"/>
+    </children>
+  </item>
+  <item nodeId="node-1838">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a lotus flower&#x000A;  a Charcoal&#x000A;  two Sticks&#x000A;  a String&#x000A;  a hard stone&#x000A;  a snake scale&#x000A;  a bronze head&#x000A;  a long metal shaft&#x000A;  a short metal shaft&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1839"/>
+    </children>
+  </item>
+  <item nodeId="node-1839">
+    <command xml:space="preserve">use string on stick</command>
+    <result xml:space="preserve">You use the String on the Stick and get a Bow.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1840"/>
+    </children>
+  </item>
+  <item nodeId="node-1840">
+    <command xml:space="preserve">use stick on charcoal</command>
+    <result xml:space="preserve">You use the Stick on the Charcoal and get a Fire arrow.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1841"/>
+    </children>
+  </item>
+  <item nodeId="node-1841">
+    <command xml:space="preserve">use bow on fire arroe</command>
+    <result xml:space="preserve">I only understood you as far as wanting to use the Bow on the Fire arrow.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1842"/>
+    </children>
+  </item>
+  <item nodeId="node-1842">
+    <command xml:space="preserve">use bow on fire arrow</command>
+    <result xml:space="preserve">You use the Bow on the Fire arrow and get a Agneyastra.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1843"/>
+    </children>
+  </item>
+  <item nodeId="node-1843">
+    <command xml:space="preserve">use shaft on head</command>
+    <result xml:space="preserve">Which do you mean, the long metal shaft or the short metal shaft?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1844"/>
+    </children>
+  </item>
+  <item nodeId="node-1844">
+    <command xml:space="preserve">short</command>
+    <result xml:space="preserve">You use the short metal shaft on the bronze head and get a Mace.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1845"/>
+    </children>
+  </item>
+  <item nodeId="node-1845">
+    <command xml:space="preserve">use mace on lotus</command>
+    <result xml:space="preserve">The Mace and the lotus flower  just don't seem to go together.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1846"/>
+    </children>
+  </item>
+  <item nodeId="node-1846">
+    <command xml:space="preserve">use mace on snake</command>
+    <result xml:space="preserve">You use the Mace on the snake scale and get a Vayvayastra.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1847"/>
+    </children>
+  </item>
+  <item nodeId="node-1847">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a Vayvayastra&#x000A;  an Agneyastra&#x000A;  a lotus flower&#x000A;  a hard stone&#x000A;  a long metal shaft&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1848"/>
+    </children>
+  </item>
+  <item nodeId="node-1848">
+    <command xml:space="preserve">stone on shaft</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1849"/>
+    </children>
+  </item>
+  <item nodeId="node-1849">
+    <command xml:space="preserve">use stone on shaft</command>
+    <result xml:space="preserve">You use the hard stone on the long metal shaft and get a Spear.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1850"/>
+    </children>
+  </item>
+  <item nodeId="node-1850">
+    <command xml:space="preserve">use spear on flower</command>
+    <result xml:space="preserve">You use the Spear on the lotus flower and get a Bhaumastra.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1851"/>
+    </children>
+  </item>
+  <item nodeId="node-1851">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1852"/>
+    </children>
+  </item>
+  <item nodeId="node-1852">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Mausoleum&#x000A;The mausoleum is big, but there doesn't seem to be anything of interesting in this part.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1853"/>
+    </children>
+  </item>
+  <item nodeId="node-1853">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Mausoleum&#x000A;Lord Varuna stands before you as if expecting something from you.&#x000A;&#x000A;You can see Lord Varuna here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1854"/>
+    </children>
+  </item>
+  <item nodeId="node-1854">
+    <command xml:space="preserve">talk to Varuna</command>
+    <result xml:space="preserve">"Hello, young warrior. It seems that those who seek your blood do not wish to allow you to receive my boon."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1855"/>
+    </children>
+  </item>
+  <item nodeId="node-1855">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"If you wish to earn my boon and slay those Asura, then I shall offer my power."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1856"/>
+    </children>
+  </item>
+  <item nodeId="node-1856">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">You feel something change inside you.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1857"/>
+    </children>
+  </item>
+  <item nodeId="node-1857">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"The power I have bestowed upon you is the power to COMBINE."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1858"/>
+    </children>
+  </item>
+  <item nodeId="node-1858">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"You can now combine an item with another and maybe even another one. The limit is that they need to always be in pairs or trios."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1859"/>
+    </children>
+  </item>
+  <item nodeId="node-1859">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"That, however, is not the full extent of my power."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1860"/>
+    </children>
+  </item>
+  <item nodeId="node-1860">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"If you wish to earn my boon, then you must use that power craft three weapons worthy of a god."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1861"/>
+    </children>
+  </item>
+  <item nodeId="node-1861">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"With those, you might have a chance against them."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1862"/>
+    </children>
+  </item>
+  <item nodeId="node-1862">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1863"/>
+    </children>
+  </item>
+  <item nodeId="node-1863">
+    <command xml:space="preserve">Talk to Varuna</command>
+    <result xml:space="preserve">"I see... so you've crafted the Agneyastra, the Vayvayastra and the Bhaumastra."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1864"/>
+    </children>
+  </item>
+  <item nodeId="node-1864">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"All weapons worthy of a god."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1865"/>
+    </children>
+  </item>
+  <item nodeId="node-1865">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"Very well... you shall receive my boon, young Kalinda."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1866"/>
+    </children>
+  </item>
+  <item nodeId="node-1866">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Lord Varuna starts singing a hymn in an ancient language...</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1867"/>
+    </children>
+  </item>
+  <item nodeId="node-1867">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Before you notice, you feel much more powerful than ever!</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1868"/>
+    </children>
+  </item>
+  <item nodeId="node-1868">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"Congratulations... you are now a demigod."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1869"/>
+    </children>
+  </item>
+  <item nodeId="node-1869">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"Time is running short, though. I must send you off now."</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1870"/>
+    </children>
+  </item>
+  <item nodeId="node-1870">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">"I will now send you to where the three Asura are, so be prepared. And remember to attack each of them with the weapon you deem most suitable."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1871"/>
+    </children>
+  </item>
+  <item nodeId="node-1871">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>

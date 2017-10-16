@@ -1,7 +1,7 @@
 "Asura" by Gabriel Aureo, Julio Rama, Thiago Panza and Gabriel Mattos
 
 Include Basic Screen Effects by Emily Short.
-Include Adventure Game Crafting System by Philip Black.
+Include Alchemy Poison & Item Crafting Engine by Philip Black
 
 A pursuit room is a kind of room.
 A pursuit room has a room called the pn_exit.
@@ -492,7 +492,7 @@ Before going a direction (called dir) in a mausoleu room (called mroom):
 		continue the action
 		
 		
-Lit Mausoleu is a scene.  Lit Mausoleu begins when Dark Mausoleu ends.
+Lit Mausoleu is a scene.  Lit Mausoleu begins when Dark Mausoleu ends. Lit Mausoleu ends when go to battle is true.
 		
 [Mausoleum is a room. The tomb and walls are scenery in the mausoleum. Understand "elevation" as the tomb. Understand "wall" as the walls.
 The description of the tomb is "[if ExaminingElevation is true] A tomb in the shoutwest of the room matches perfectly the elevation you [old action] when the room was dark. [line break][end if]The tomb is richly embellished with golden intricate inlay. The lid[if Dark Mausoleu ended spiritic] that once held the light spirit now sits on floor next to the tomb.[otherwise] is also very fancy. A real deal to tomb raiders.[end if]".
@@ -518,29 +518,114 @@ When Lit Mausoleu begins:
 		say "[paragraph break]After breaking the wall, a burst of light comes from outside. On the edge of the hole caused by your punch, you can see some burn marks. It seems the wall iselft was the source of the smell. [line break]Thankfully, you can see the room now.";
 		now the player is in LSW;
 		now the tomb is closed.
+		
+Go to battle is a truth state variable. Go to battle is false.
 
 Element is a kind of value.  The elements are fire, water, wind, earth.
 A weapon is a kind of thing. A weapon has a element called weapon element.
 
-Bhaumastra is a kind of weapon. The weapon element of Bhaumastra is earth. Understand "Bhau" as Bhaumastra. The description of a Bhau is "The weapon wielded by Mahit. It's a magical spear that can easily pierce and control the earth."
+Bhaumastra is a kind of weapon. The weapon element of Bhaumastra is earth. Understand "Bhau" as Bhaumastra. The description of a Bhaumastra is "The weapon wielded by Mahit. It's a magical spear that can easily pierce and control the earth."
 Agneyastra is a kind of weapon. The weapon element of Agneyastra is fire. Understand "Agne" as Agneyastra. The description of a Agne is "The weapon wielded by Basdev. It's a bow that shoots flaming arrows.".
 Vayvayastra is a kind of weapon. The weapon element of Vayvayastra is wind. Understand "Vayvay" or "Vay" as Vayvayastra. The description of a vay is "The weapon wielded by Kastha. It's a magical mace that can create whirlwinds just by swinging it."
-A Metal Shaft is a kind of thing.  Every metal shaft becomes a Vay and a Bhau. The description of a metal shaft is "A short pole made of iron. Appears to have about 50 centimeters. Maybe it could be attached to something?"
-A Bronze Head is a kind of thing. Every bronze head becomes a Vay. The description of a bronze head is "A heavy sphere made of bronze. Looks like it could be used to make a mace or flail."
-A snake scale is a kind of thing.  Understand "scale" as a snake scale. The description of a scale is "Scales taken from a dead snake. They appear to have a symbolic meaning."
+Mace is a kind of thing.  The description of a mace is "A heavy mace made with a metal shaft and a bronze head.". Every mace becomes the vay.
+Spear is a kind of thing. The description of the spear is "A light, versatile spear made of metal with a rock head.". Every spear becomes a bhaumastra.
+A long metal shaft is a kind of thing. The description of a long metal shaft is "A long pole made of iron. Appears to have about 1 meter. Made by attaching two smaller ones to each other.". Every long metal shack becomes the spear.
+A short metal shaft is a kind of thing.  Every small metal shaft becomes a mace. The description of a small metal shaft is "A short pole made of iron. Appears to have about 50 centimeters. Maybe it could be attached to something?"
+A bronze head is a kind of thing. Every bronze head becomes a Vay. The description of a bronze head is "A heavy sphere made of bronze. Looks like it could be used to make a mace or flail."Every bronze head becomes a mace.
+A snake scale is a kind of thing.  Understand "scale" as a snake scale. The description of a scale is "Scales taken from a dead snake. They appear to have a symbolic meaning." Every scale becomes the vay.
+A hard stone is a kind of thing. The description of a hard stone is "A small, pointy stone. It's harder than an usual stone, for some reason.". every hard stone becomes the spear.
+A lotus flower is a kind of thing. Understand "lotus" or "flower" as a lotus flower. The description of a lotus flower is "A beautiful flower thought to have magical properties.". Every lotus flower becomes bhaumastra.
+Bow is a kind of thing. The description of a bow is "A simple weapon used to fire arrows from a distance.". Every bow becomes the agne.
+Fire arrow is a kind of thing. Understand "arrow" as fire arrow. The description of fire arrow is "An arrow that burns whoever or whatever it hits.". Every arrow becomes the agne.
+String is a kind of thing. The description of string is "A small piece of string.". Every string becomes a bow.
+Stick is a kind of thing. The description of stick is "A thin piece of wood. It's pretty light and has about 40 centimeters.". Every stick becomes the bow and the fire arrow.
+Charcoal is a kind of thing. The description of charcoal is "A small piece of burnt wood. It has a sacred meaning regarding Lord Agni.". Every charcoal becomes the fire arrow.
+
+
+
+Instead of dropping a thing:
+	say "That's far too valuable to throw away. Let's just hang to it."
+
+When play begins:
+	now every string becomes every bow;
+	now every stick becomes every bow;
+	now every stick becomes every fire arrow;
+	now every charcoal becomes every fire arrow;
+	now every fire arrow becomes every agneyastra;
+	now every bow becomes every agneyastra;
+	now every short metal shaft becomes every mace;
+	now every bronze head becomes every mace;
+	now every mace becomes every vayvayastra;
+	now every snake scale becomes every vayvayastra;
+	now every long metal shaft becomes every spear;
+	now every hard stone becomes every spear;
+	now every spear becomes every bhaumastra;
+	now every lotus flower becomes every bhaumastra
 
 		
 The description of LNW is "There is a big tomb next to the wall. You wonder what could be inside."
 The tomb is a openable container. The tomb is scenery in LNW. 
 The description of the tomb is "[if Dark Mausoleu ended spiritic]The size of the tomb matches perfectly with the size of the elevation you freed the light spirit from.[line break][end if][if the tomb is closed]The tomb is closed, but it doesn't seem to be locked.[end if]".
-There are 3 metal shafts in the tomb.
+There is one short metal shaft, one long metal shaft and one bronze head in the tomb.
+
+The description of LN is "The mausoleum is big, but there doesn't seem to be anything of interesting in this part."
+The description of LW is "The mausoleum is big, but there doesn't seem to be anything of interesting in this part."
+The description of LS is "The mausoleum is big, but there doesn't seem to be anything of interesting in this part."
+The description of LSE is "The mausoleum is big, but there doesn't seem to be anything of interesting in this part."
 
 
+One snake scale, one hard stone  and one string are in LNE. 
+2 sticks are in LE.
+One charcoal and one lotus flower are in LSW.
 
+Lord Varuna is a person in LC.
+The description of LC is "Lord Varuna stands before you as if expecting something from you."
 
-	
+After talking Lord Varuna for the first time:
+	say "'Hello, young warrior. It seems that those who seek your blood do not wish to allow you to receive my boon.'";
+	wait for any key;
+	say "'If you wish to earn my boon and slay those Asura, then I shall offer my power.'";
+	wait for any key;
+	say "You feel something change inside you.";
+	wait for any key;
+	say "'The power I have bestowed upon you is the power to COMBINE.'";
+	wait for any key;
+	say "'You can now combine an item with another and maybe even another one. The limit is that they need to always be in pairs or trios.'";
+	wait for any key;
+	say "'That, however, is not the full extent of my power.'";
+	wait for any key;
+	say "'If you wish to earn my boon, then you must use that power craft three weapons worthy of a god.'";
+	wait for any key;
+	say "'With those, you might have a chance against them.'"
+
+After talking Lord Varuna:
+	if the player carries one Agneyastra and the player carries one Vayvayastra and the player carries one Bhaumastra:
+		say "'I see... so you've crafted the Agneyastra, the Vayvayastra and the Bhaumastra.'";
+		wait for any key;
+		say "'All weapons worthy of a god.'";
+		wait for any key;
+		say "'Very well... you shall receive my boon, young Kalinda.'";
+		wait for any key;
+		say "Lord Varuna starts singing a hymn in an ancient language...";
+		wait for any key;
+		say "Before you notice, you feel much more powerful than ever!";
+		wait for any key;
+		say "'Congratulations... you are now a demigod.'";
+		wait for any key;
+		say "'Time is running short, though. I must send you off now.'";
+		wait for any key;
+		say "'I will now send you to where the three Asura are, so be prepared. And remember to attack each of them with the weapon you deem most suitable.'";
+		now go to battle is true;
+	otherwise:
+		say "'As I said, you must USE an item WITH another one.'";
+		wait for any key;
+		say "'Until you've created three weapons, I'm afraid I cannot help you.'";
+			
 	
 Final Battle is a scene. Final Battle begins when Lit Mausoleu ends.
+
+When Final Battle begins:
+	now the player is in Final Room
 
 Table of Fancy Status
 left	central	right 
@@ -630,13 +715,11 @@ Report someone attacking something with something (this is the standard report a
 Final Room is a room. Asura Mahit, Asura Basdev and Asura Kastha are in the final room.
 
 
-
 Water Sword is a weapon. The weapon element of Water Sword is water.
 Fire Sword is a weapon. The weapon element of Fire Sword is fire.
 Wind Sword is a weapon. The weapon element of Wind Sword is wind.
 Earth Sword is a weapon. The weapon element of the Earth Sword is earth.
 
-The player carries a water sword, a fire sword, a earth sword and a wind sword.
 Asura Mahit carries a Bhaumastra.
 Asura Basdev carries a Agneyastra.
 Asura Kastha carries a Vayvayastra
